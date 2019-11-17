@@ -1,0 +1,68 @@
+$color-list: (
+  primary: $color-primary,
+  secondary: $color-secondary,
+  tertiary: $color-tertiary
+);
+
+$target-list: (
+  text: color,
+  bg: background-color
+);
+
+@each $cName, $cValue in $color-list {
+  @each $tName, $tValue in $target-list {
+
+    .#{$tName}-#{$cName} {
+      #{$tValue}: $cValue;
+    }
+
+    .#{$tName}-#{$cName}-dark {
+      #{$tValue}: darken($cValue, 20%);
+    }
+
+    .#{$tName}-#{$cName}-light {
+      #{$tValue}: lighten($cValue, 20%);
+    }
+
+  }
+}
+
+.text-fff {
+  color: #fff;
+}
+
+.bg-fff {
+  background-color: #fff;
+}
+
+.text-000 {
+  color: #000;
+}
+
+.bg-000 {
+  background-color: #000;
+}
+
+.text-grey {
+  color: $color-grey;
+}
+
+.bg-grey {
+  background-color: $color-grey;
+}
+
+.text-grey-light {
+  color: $color-grey-light;
+}
+
+.bg-grey-light {
+  background-color: $color-grey-light;
+}
+
+.text-grey-dark {
+  color: $color-grey-dark;
+}
+
+.bg-grey-dark {
+  background-color: $color-grey-dark;
+}
