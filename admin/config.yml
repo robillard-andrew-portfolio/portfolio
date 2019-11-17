@@ -6,12 +6,12 @@ media_folder: "images/uploads"
 display_url: andrewrobillard.com
 
 collections:
-  - label: "Theme Settings"
-    name: "theme"
+  - label: "Site Information"
+    name: "site-information"
     files:
       - label: "Site Information"
-        name: "site-info"
-        file: _data/site.json
+        name: "site-information"
+        file: _data/site.yml
         fields:
           - label: "Title"
             name: "title"
