@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: robillard-andrew-portfolio/portfolio
+
+media_folder: "images/uploads"
+display_url: andrewrobillard.com
+
+collections:
+  - label: "Theme Settings"
+    name: "theme"
+    files:
+      - label: "Site Information"
+        name: "site-info"
+        file: _data/site.json
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Website Description"
+            name: "meta"
+            widget: "string"
+            hint: "This description is used for Search Engine Optimization (SEO)."
+          - label: "Site Owner"
+            name: "owner"
+            widget: "string"

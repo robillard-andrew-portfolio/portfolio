@@ -1,0 +1,3 @@
+permalinks: pretty
+sass:
+    style: expanded
