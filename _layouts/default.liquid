@@ -35,9 +35,11 @@
     <li><a href="#main">Jump to main content</a></li>
     <li><a class="skip-to-nav" href="#nav">Jump to navigation</a></li>
   </ul>
+  {% include patterns/header.liquid %}
   <main role="main" id="main">
     {{ content }}
   </main>
+  {% include patterns/footer.liquid %}
   <script type="application/jd+json">
   {
     "@context": "https://schema.org",

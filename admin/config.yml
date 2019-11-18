@@ -6,8 +6,8 @@ media_folder: "images/uploads"
 display_url: andrewrobillard.com
 
 collections:
-  - label: "Site Information"
-    name: "site-information"
+  - label: "Content"
+    name: "content"
     files:
       - label: "Site Information"
         name: "site-information"
@@ -20,7 +20,7 @@ collections:
           - label: "Meta Description"
             name: "meta"
             widget: "string"
-            hint: "This description is used for Search Engine Optimization (SEO)."
+            # hint: "This description is used for Search Engine Optimization (SEO)."
           - label: "Site Owner"
             name: "owner"
             widget: "string"
@@ -51,3 +51,18 @@ collections:
                   - { label: "Instagram", value: "instagram" }
                   - { label: "LinkedIn", value: "linkedin" }
                   - { label: "Vimeo", value: "vimeo" }
+              - label: Link
+                name: url
+                widget: string
+  - label: Case Studies
+    name: "case-studies"
+    folder: "_case-studies"
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Layout
+        name: layout
+        default: default
+        widget: hidden
