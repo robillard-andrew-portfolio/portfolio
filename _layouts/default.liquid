@@ -62,5 +62,16 @@
     ]
   }
 </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//f.vimeocdn.com/js/froogaloop2.min.js"></script>
+<script>
+var iframe = $('#vimeo_player')[0],
+    player = $f(iframe),
+    status = $('.status');
+
+    player.addEvent('ready', function() {
+        player.api('setVolume', 0);
+    });
+</script>
 </body>
 </html>
