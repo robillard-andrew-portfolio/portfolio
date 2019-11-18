@@ -12,14 +12,42 @@ collections:
       - label: "Site Information"
         name: "site-information"
         file: _data/site.yml
+        hint: "Contains basic information including website title, owner, meta description, contact information, and social media links."
         fields:
           - label: "Title"
             name: "title"
             widget: "string"
-          - label: "Website Description"
+          - label: "Meta Description"
             name: "meta"
             widget: "string"
             hint: "This description is used for Search Engine Optimization (SEO)."
           - label: "Site Owner"
             name: "owner"
             widget: "string"
+          - label: "Job Title"
+            name: "jobTitle"
+            widget: "string"
+          - label: "Website URL"
+            name: "url"
+            widget: "string"
+          - label: "Email"
+            name: "email"
+            widget: "string"
+          - label: "Telephone"
+            name: "tel"
+            widget: "string"
+          - label: "Postal Code"
+            name: "postalCode"
+            widget: "string"
+          - label: "Social Links"
+            name: "social"
+            widget: "list"
+            fields:
+              - label: Type
+                name: type
+                widget: "select"
+                options:
+                  - { label: "Github", value: "github" }
+                  - { label: "Instagram", value: "instagram" }
+                  - { label: "LinkedIn", value: "linkedin" }
+                  - { label: "Vimeo", value: "vimeo" }

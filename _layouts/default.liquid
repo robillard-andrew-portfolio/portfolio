@@ -1,14 +1,64 @@
-<!DOCTYPE html>
+<!DOCTYPE html>{% assign siteInfo = site.data.site %}
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>{{ site.data.site.title }}</title>
+  <title>{% if page.title %}{{page.title}} · {% endif %}{{ siteInfo.title }}</title>
+  <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{siteInfo.meta}}{% endif %}">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="/css/main.css" rel="stylesheet">
+  <!-- Geotagging -->
+  <meta name="ICBM" content="45.416667,-75.7">
+  <meta name="geo.position" content="45.416667;-75.7">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <!-- Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}{{siteInfo.title}}">
+  <meta property="og:url" content="{{siteInfo.url}}">
+  <meta property="og:image" content="{{siteInfo.url}}/images/">
+  <meta property="og:site_name" content="{{siteInfo.title}}">
+  <meta property="og:description" content="{% if page.description %}{{page.description}}{% else %}{{siteInfo.meta}}{% endif %}">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{page.title}} · {% endif %}{{siteInfo.title}}">
+  <meta name="twitter:url" content="{{siteInfo.url}}">
+  <meta name="twitter:description" content="{% if page.description %}{{page.description}}{% else %}{{siteInfo.meta}}{% endif %}">
+  <meta name="twitter:image" content="{{siteInfo.url}}/images/">
+  <!-- CSS -->
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico"/>
 </head>
-<body>
-  {{ content }}
+<body id="top" class="{{page.pageClass}}">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a class="skip-to-nav" href="#nav">Jump to navigation</a></li>
+  </ul>
+  <main role="main" id="main">
+    {{ content }}
+  </main>
+  <script type="application/jd+json">
+  {
+    "@context": "https://schema.org",
+    "@id": "#{{siteInfo.owner | downcase | replace: ' ', '' }}",
+    "@type": "Person",
+    "name": "{{siteInfo.owner}}",
+    "jobTitle": "{{siteInfo.jobTitle}}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ottawa",
+      "addressRegion": "ON",
+      "addressCountry": "CA",
+      "postalCode": "{{siteInfo.postalCode}}"
+    },
+    "email": "{{siteInfo.email}}",
+    "tel": "{{siteInfo.tel}}",
+    "website": "{{siteInfo.url}}"{% assign count = siteInfo.social | size | minus: 1 %}
+    "sameAs": [{% for social in (0..count) %}
+      "{{ siteInfo.social[social].url }}"{% unless social == count %},{% endunless %}{% endfor %}
+    ]
+  }
+</script>
 </body>
 </html>
