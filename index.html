@@ -3,6 +3,19 @@ layout: default
 ---
 <h1>{{ site.data.site.title }}</h1>
 
-<div class="vimeo-wrapper">
-  <iframe id="vimeo_player" src="https://player.vimeo.com/video/185239002?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<a class="block pop-up-link" href="#" data-vimeo-link="https://player.vimeo.com/video/183719479">Camp Ozanam</a>
+<a class="block pop-up-link" href="#" data-vimeo-link="https://player.vimeo.com/video/224391957">Norway Lake</a>
+
+
+<div>
+  <iframe class="vimeo-pop-up" src="" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+
+<!-- ?autoplay=1&color=2c8Bd9&title=0&byline=0&portrait=0 -->
+
+{% for work in site.work %}
+  <div class="{{ work.title | downcase | replace: ' ', '-' }}">
+    <h2>{{ work.title }}</h2>
+    <p>{{ work.meta }}</p>
+  </div>
+{% endfor %}

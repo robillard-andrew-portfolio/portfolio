@@ -66,3 +66,27 @@ collections:
         name: layout
         default: default
         widget: hidden
+  - label: Work
+    name: "work"
+    folder: "_work"
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: meta
+        widget: string
+      - label: Vimeo Link
+        name: vimeo
+        widget: string
+        hint: Take only the 'src' link from the embed code and enter it here. Ex: 'https://player.vimeo.com/video/224391957'
+      - label: Video Thumbnail
+        name: thumbnail
+        widget: image
+        hint: '16:9 thumbnail. Should be minimum ####px wide.'
+      - label: Active
+        name: active
+        widget: boolean
+        default: true
+        hint: When active, this work will be included in the 'Work' section of the Home page.

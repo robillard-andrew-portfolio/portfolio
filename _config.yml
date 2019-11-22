@@ -5,3 +5,5 @@ collections:
   case-studies:
     output: true
     permalink: /:collection/:path/
+  work:
+    output: false
