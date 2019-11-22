@@ -77,14 +77,16 @@ collections:
       - label: Description
         name: meta
         widget: string
+        required: false
       - label: Vimeo Link
         name: vimeo
         widget: string
-        hint: Take only the 'src' link from the embed code and enter it here. Ex: 'https://player.vimeo.com/video/224391957'
+        hint: "Take only the 'src' link from the embed code and enter it here. Ex: 'https://player.vimeo.com/video/224391957'"
       - label: Video Thumbnail
         name: thumbnail
         widget: image
         hint: '16:9 thumbnail. Should be minimum ####px wide.'
+        required: false
       - label: Active
         name: active
         widget: boolean
