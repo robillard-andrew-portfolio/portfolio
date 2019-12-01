@@ -19,6 +19,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: flex-end;
+    @include min(38) {
+      display: none;
+    }
     span {
       width: 100%;
       height: 3px;
