@@ -1,4 +1,33 @@
 <footer id="footer" class="footer" role="contentinfo">
-  <p>{{ siteInfo.title }}</p>
-  {% include utilities/nav.liquid navId="footer-nav" navClass="footer-nav" %}
+  <div class="wrapper island">
+    <strong class="logo block peta"><a href="/">{{ siteInfo.title }}</a></strong>
+    <ul class="list-group-inline icon-list push-0">
+      <li>
+        <a class="icon-link inline-block" href="mailto:{{ site.data.site.email }}">
+          <i class="icon i-3-4">
+            <svg><use xlink:href="images/icons.svg#email" /></svg>
+          </i>
+          <span class="icon-label hidden">Click to email me directly.</span>
+        </a>
+      </li>
+      {% for icons in site.data.site.social %}
+      <li>
+        <a class="icon-link inline-block" href="{{ icons.url }}">
+          <i class="icon i-3-4">
+            <svg><use xlink:href="images/icons.svg#{{ icons.type }}" /></svg>
+          </i>
+          <span class="icon-label hidden">Link to {{ icons.type | capitalize }} account.</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="grid wrapper sub-footer island-1-2">
+    <div class="unit [ xs-1 m-1-2 ] island-1-2">
+      <small>© Andrew Robillard 2020</small>
+    </div>
+    <div class="unit [ xs-1 m-1-2 ] island-1-2">
+      <small>Designed and developed by <a href="https://adamrobillard.ca">Adam Robillard</a></small>
+    </div>
+  </div>
 </footer>

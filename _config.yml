@@ -1,4 +1,4 @@
-permalinks: pretty
+permalink: pretty
 sass:
     style: expanded
 collections:

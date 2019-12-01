@@ -1,3 +1,12 @@
-<div class="vimeo-banner">
-  <iframe id="vimeo_player" src="https://player.vimeo.com/video/185239002?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="vimeo-banner" style="background-image: url('{{ include.img }}')">
+  <div class="vimeo-banner-overlay">
+    <div class="vimeo-banner-content">
+      <strong class="yotta vimeo-banner-title block">{{ include.title }}</strong>
+    </div>
+    <div class="pin-cb scroller-wrap">
+      <a class="reel-link text-upper inline-block" href="#video-player">Watch Reel</a>
+      <a class="scroller inline-block" href="#work" aria-label="Select to view work samples.">
+      </a>
+    </div>
+  </div>
 </div>

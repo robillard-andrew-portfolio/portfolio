@@ -1,23 +1,16 @@
 <nav id="{{ include.navId }}" class="{{ include.navClass }}" role="navigation">
   <ul class="list-group push-0">
     <li>
-      <a href="/">Home</a>
+      <a href="/#work">Work</a>
     </li>
     <li>
-      <a href="/about">About</a>
-    </li>
-    <li class="has-dropdown">
-      <a href="/case-studies">Case Studies</a>
-      <ul class="dropdown push-0">
-        {% for drop in site.case-studies %}
-        <li>
-          <a href="{{ drop.url }}">{{ drop.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+      <a href="/#about">About</a>
     </li>
     <li>
-      <a href="/contact">Contact</a>
+      <a href="/behind-the-scenes">Behind the Scenes</a>
+    </li>
+    <li>
+      <a href="/#contact">Contact</a>
     </li>
   </ul>
 </nav>

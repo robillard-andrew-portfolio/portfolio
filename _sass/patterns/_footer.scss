@@ -1,0 +1,31 @@
+.footer {
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      color: #fff;
+    }
+    .icon-list {
+      li {
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  .sub-footer {
+    color: #999;
+    a {
+      color: #bbb;
+    }
+    small {
+      @extend .micro;
+    }
+    @include min(38) {
+      .unit:last-child {
+        text-align: right;
+      }
+    }
+  }
+}

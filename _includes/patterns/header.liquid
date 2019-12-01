@@ -1,3 +1,13 @@
 <header class="masthead" role="banner">
-  Header
+  <div class="wrapper gutter pad-t-1-2 pad-b-1-2">
+    <a class="menu-tog m-0" href="#nav-footer" aria-label="Navigation toggle">
+      <span id="tog-top" class="tog-top"></span>
+      <span id="tog-middle" class="tog-middle"></span>
+      <span id="tog-bottom" class="tog-bottom"></span>
+    </a>
+    {% if page.url == '/' %}<h1 class="logo peta push-0">{% else %}<strong class="logo block peta">{% endif %}
+      <a href="/">{{ siteInfo.title }}</a>
+    {% if page.url == '/' %}</h1>{% else %}</strong>{% endif %}
+    {% include utilities/nav.liquid navId='nav' navClass='nav' %}
+  </div>
 </header>

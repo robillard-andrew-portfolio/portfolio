@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i&display=swap');
 @import 'utilities/variables';
 @import 'utilities/mixins';
 @import 'modules/modules';
@@ -6,6 +7,9 @@
 @import 'modules/colors';
 @import 'styles/typography';
 @import 'patterns/banners';
+@import 'patterns/header';
+@import 'patterns/footer';
+@import 'patterns/logo';
 
 .vimeo-pop-up {
   border: 2px solid red;

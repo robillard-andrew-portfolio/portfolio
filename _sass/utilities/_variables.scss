@@ -1,6 +1,6 @@
 // Styles
-$font-primary: sans-serif;
-$transition: .25s ease-in-out;
+$font-primary: 'Merriweather Sans', sans-serif;
+$transition: .25s cubic-bezier(.75, 0, .25, 1);
 $transition-quick: .15s ease-in-out;
 $border-radius: 5px;
 $shadow: 0 1px 3px rgba(0, 0, 0, .15);
