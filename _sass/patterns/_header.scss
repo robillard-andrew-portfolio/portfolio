@@ -4,6 +4,34 @@
   left: 0;
   width: 100%;
   z-index: 10000;
+  transition:
+    background-color $transition;
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #333;
+    transition:
+      width $transition,
+      height $transition;
+  }
+  // &.sticky {
+  //   background-color: #333;
+  // }
+  &.sticky::before {
+    height: 100%;
+    // width: 100%;
+  }
+  @media only screen and (min-width: 38em) and (max-width: 750px) {
+    font-size: .9090909091rem;
+    h1 {
+      font-size: 1.15rem;
+      line-height: 1.3;
+    }
+  }
   .wrapper {
     display: flex;
     align-items: center;

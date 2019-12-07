@@ -2,18 +2,73 @@
 layout: default
 ---
 {% include patterns/banners/vimeo-banner.liquid title=site.data.home.banner.title img=site.data.home.banner.img %}
-<section id="work">
+<section id="work" class="push-2">
   <h2 class="hidden">Work</h2>
   <div class="grid">
     {% for video in site.work %}
     {% if video.active == true %}
     <div class="unit [ xs-1 m-1-2 ] video-preview">
-      <a class="block embed embed-16by9 video-player-link" href="#video-player" data-video-link="{{ video.vimeo }}" aria-label="Select to play the video created for {{ video.title }}">
+      <a class="block embed embed-2by1 video-player-link" href="#video-player" data-video-link="{{ video.vimeo }}" aria-label="Select to play the video created for {{ video.title }}">
         <img class="embed-item" src="{{ video.img }}" alt="">
         <h3 class="line-highlight absolute pin-c push-0 text-fff text-upper">{{ video.title }}</h3>
       </a>
     </div>
     {% endif %}
     {% endfor %}
+  </div>
+  <div class="video-player-wrap" tabindex="0">
+    <iframe id="video-player" class="video-player" src="" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <a id="video-closer" class="icon-link inline-block island pin-tr" href="#">
+      <i class="icon i-3-4">
+        <svg><use xlink:href="images/icons.svg#close" /></svg>
+      </i>
+      <span class="icon-label hidden">Close video player.</span>
+    </a>
+  </div>
+</section>
+<section id="about" class="push-2">
+  <div class="wrapper pad-t-2 pad-b-2">
+    <div class="grid grid-middle island-1-2 overlap">
+      <div class="unit [ xs-1 m-1-2 ] island-1-2 overlap-img">
+        <div class="embed embed-16by9 bg-grey-dark">
+          <img class="embed-item" src="{{ site.data.home.about.img }}" alt="">
+        </div>
+      </div>
+      <div class="unit [ xs-1 m-1-2 ] island-1-2 overlap-text">
+        <h2>About</h2>
+        <div class="markdown">
+          {{ site.data.home.about.content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="push-2">
+  <div class="max-length pad-t-2 pad-b-2">
+    <div class="island">
+      <h2>Contact</h2>
+      <p class="push-0">Let me know what you are looking to create and I will let you know how I can help.</p>
+    </div>
+    <form class="grid island-1-2" action="#" method="post">
+      <div class="unit [ xs-1 m-1-2 ] island-1-2">
+        <input id="full-name" name="full-name" placeholder="Full Name*">
+        <label class="hidden" for="full-name">Full Name</label>
+      </div>
+      <div class="unit [ xs-1 m-1-2 ] island-1-2">
+        <input id="email" name="email" placeholder="Email*">
+        <label class="hidden" for="email">Email</label>
+      </div>
+      <div class="unit [ xs-1 ] island-1-2">
+        <input id="subject" name="subject" placeholder="Subject*">
+        <label class="hidden" for="subject">Subject</label>
+      </div>
+      <div class="unit [ xs-1 ] island-1-2">
+        <textarea id="message" name="message" placeholder="Message*"></textarea>
+        <label class="hidden" for="message">Message</label>
+      </div>
+      <div class="unit [ xs-1 ] island-1-2">
+        <button class="line-highlight giga bold" type="submit">Submit</button>
+      </div>
+    </form>
   </div>
 </section>

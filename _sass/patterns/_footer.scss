@@ -1,8 +1,15 @@
 .footer {
   .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    text-align: center;
+    @include min(38) {
+      text-align: left;
+      .icon-list {
+        text-align: right;
+      }
+    }
     a {
       color: #fff;
     }

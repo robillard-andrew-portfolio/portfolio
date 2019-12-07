@@ -10,7 +10,13 @@
 @import 'patterns/header';
 @import 'patterns/footer';
 @import 'patterns/logo';
+@import 'patterns/video-player';
+@import 'layout';
 
 .vimeo-pop-up {
   border: 2px solid red;
+}
+
+html {
+  scroll-behavior: smooth;
 }

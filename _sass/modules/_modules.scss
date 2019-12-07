@@ -157,6 +157,10 @@ svg.img-flex {
   padding-top: 100%; /* Square */
 }
 
+.embed-2by1, .embed--2by1 {
+  padding-top: 50%; /* Square */
+}
+
 .embed-4by3, .embed--4by3 {
   padding-top: 75%; /* Traditional TV/computer screens */
 }
@@ -811,8 +815,9 @@ textarea {
   display: block;
   width: 100%;
 
-  background-color: #fff;
-  border: 2px solid #666;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
   border-radius: 0;
 }
 
@@ -1022,7 +1027,7 @@ select {
 
 /* stylelint-disable no-descending-specificity */
 
-button,
+button:not(.line-highlight),
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -1048,8 +1053,8 @@ button::-moz-focus-inner {
 
 /* stylelint-enable */
 
-button:focus,
-button:hover,
+button:not(.line-highlight):focus,
+button:not(.line-highlight):hover,
 .btn:focus,
 .btn:hover {
   background-color: #000;
@@ -1119,7 +1124,7 @@ input:focus,
 textarea:focus,
 button:focus,
 select:focus {
-  outline: 3px solid #000;
+  outline: 3px solid #fff;
   outline-offset: 0;
 }
 

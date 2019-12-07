@@ -6,8 +6,8 @@ media_folder: "images/uploads"
 display_url: andrewrobillard.com
 
 collections:
-  - label: "Content"
-    name: "content"
+  - label: "General Content"
+    name: "general-content"
     files:
       - label: "Site Information"
         name: "site-information"
@@ -54,6 +54,30 @@ collections:
               - label: Link
                 name: url
                 widget: string
+      - label: "Home Page Content"
+        name: "home-content"
+        file: _data/home.yml
+        fields:
+          - label: Banner
+            name: banner
+            widget: object
+            fields:
+              - label: Headline
+                name: title
+                widget: string
+              - label: Background Image
+                name: img
+                widget: image
+          - label: About
+            name: about
+            widget: object
+            fields:
+              - label: Image
+                name: img
+                widget: image
+              - label: Content
+                name: content
+                widget: markdown
   - label: Case Studies
     name: "case-studies"
     folder: "_case-studies"

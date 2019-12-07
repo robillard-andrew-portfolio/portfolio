@@ -1,0 +1,26 @@
+@media only screen and (min-width: 38em) {
+
+  .overlap-img {
+    .embed {
+      width: 133.333%;
+      &.embed-16by9 {
+        padding-top: 75%;
+      }
+    }
+  }
+
+  .overlap-text {
+    display: relative;
+    z-index: 2;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .overlap-text {
+    padding-right: 8.33333%;
+  }
+
+}
