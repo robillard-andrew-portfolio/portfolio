@@ -17,3 +17,12 @@ contact:
   content: >-
     Let me know what you are looking to create and I will let you know how I can
     help.
+  form:
+    fields:
+      - label: Full Name
+        placeholder: John Smith
+        type: text
+      - label: Message
+        type: textarea
+    submit: Submit
+  title: Contact
