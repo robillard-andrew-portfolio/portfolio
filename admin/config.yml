@@ -117,7 +117,7 @@ collections:
                             hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
                             options:
                               - label: Full
-                                value: 1-2
+                                value: 1
                               - label: Half
                                 value: 1-2
                               - label: Third
@@ -141,7 +141,7 @@ collections:
                             hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
                             options:
                               - label: Full
-                                value: 1-2
+                                value: 1
                               - label: Half
                                 value: 1-2
                               - label: Third
@@ -165,7 +165,7 @@ collections:
                             hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
                             options:
                               - label: Full
-                                value: 1-2
+                                value: 1
                               - label: Half
                                 value: 1-2
                               - label: Third
@@ -189,7 +189,7 @@ collections:
                             hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
                             options:
                               - label: Full
-                                value: 1-2
+                                value: 1
                               - label: Half
                                 value: 1-2
                               - label: Third
@@ -216,7 +216,7 @@ collections:
                             hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
                             options:
                               - label: Full
-                                value: 1-2
+                                value: 1
                               - label: Half
                                 value: 1-2
                               - label: Third
@@ -243,7 +243,7 @@ collections:
                             hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
                             options:
                               - label: Full
-                                value: 1-2
+                                value: 1
                               - label: Half
                                 value: 1-2
                               - label: Third
