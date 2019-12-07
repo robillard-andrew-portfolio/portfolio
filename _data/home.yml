@@ -33,9 +33,9 @@ contact:
         width: 1
       - name: Job Type
         options:
-          - undefined: Barter
-          - undefined: Not For Profit
-          - undefined: For Profit
+          - label: Barter
+          - label: Not For Profit
+          - label: For Profit
         type: radio
     submit: Submit
   title: Contact

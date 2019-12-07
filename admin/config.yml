@@ -156,6 +156,8 @@ collections:
                             widget: list
                             fields:
                               - label: Label
+                                name: label
+                                widget: string
                   - label: Submit Button Label
                     name: submit
                     widget: string
