@@ -35,7 +35,7 @@ layout: default
         </div>
       </div>
       <div class="unit [ xs-1 m-1-2 ] island-1-2 overlap-text">
-        <h2>About</h2>
+        <h2>{{ site.data.home.about.title }}</h2>
         <div class="markdown">
           {{ site.data.home.about.content | markdownify }}
         </div>
@@ -46,8 +46,10 @@ layout: default
 <section id="contact" class="push-2">
   <div class="max-length pad-t-2 pad-b-2">
     <div class="island">
-      <h2>Contact</h2>
-      <p class="push-0">Let me know what you are looking to create and I will let you know how I can help.</p>
+      <h2>{{ site.data.home.contact.title }}</h2>
+      <div class="markdown">
+        {{ site.data.home.contact.content | markdownify }}
+      </div>
     </div>
     <form class="grid island-1-2" action="#" method="post">
       <div class="unit [ xs-1 m-1-2 ] island-1-2">

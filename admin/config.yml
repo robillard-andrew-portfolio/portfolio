@@ -14,9 +14,10 @@ collections:
         file: _data/site.yml
         hint: "Contains basic information including website title, owner, meta description, contact information, and social media links."
         fields:
-          - label: "Title"
+          - label: "Website Title"
             name: "title"
             widget: "string"
+            hint: Used in meta descriptions, header and footer logos, and other important locations.
           - label: "Meta Description"
             name: "meta"
             widget: "string"
@@ -72,12 +73,36 @@ collections:
             name: about
             widget: object
             fields:
+              - label: Title
+                name: title
+                widget: string
               - label: Image
                 name: img
                 widget: image
               - label: Content
                 name: content
                 widget: markdown
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Content
+                name: content
+                widget: markdown
+              - label: Contact Form
+                name: form
+                widget: list
+                types:
+                  - label: Text Input
+                    name: text
+                    widget: object
+                    fields:
+                      - label: Label
+                        name: label
+                        widget: string
   - label: Case Studies
     name: "case-studies"
     folder: "_case-studies"
