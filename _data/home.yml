@@ -17,7 +17,3 @@ contact:
   content: >-
     Let me know what you are looking to create and I will let you know how I can
     help.
-  form:
-    - label: Full Name
-      type: text
-  title: Contact
