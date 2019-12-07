@@ -135,6 +135,19 @@ collections:
                             name: placeholder
                             widget: string
                             required: false
+                          - label: Responsive Width
+                            name: width
+                            widget: select
+                            hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
+                            options:
+                              - label: Full
+                                value: 1-2
+                              - label: Half
+                                value: 1-2
+                              - label: Third
+                                value: 1-3
+                              - label: Quarter
+                                value: 1-4
                       - label: Email
                         name: email
                         widget: object
@@ -146,6 +159,19 @@ collections:
                             name: placeholder
                             widget: string
                             required: false
+                          - label: Responsive Width
+                            name: width
+                            widget: select
+                            hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
+                            options:
+                              - label: Full
+                                value: 1-2
+                              - label: Half
+                                value: 1-2
+                              - label: Third
+                                value: 1-3
+                              - label: Quarter
+                                value: 1-4
                       - label: Telephone
                         name: tel
                         widget: object
@@ -157,6 +183,19 @@ collections:
                             name: placeholder
                             widget: string
                             required: false
+                          - label: Responsive Width
+                            name: width
+                            widget: select
+                            hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
+                            options:
+                              - label: Full
+                                value: 1-2
+                              - label: Half
+                                value: 1-2
+                              - label: Third
+                                value: 1-3
+                              - label: Quarter
+                                value: 1-4
                       - label: Radio Buttons
                         name: radio
                         widget: object
@@ -171,6 +210,19 @@ collections:
                               - label: Label
                                 name: label
                                 widget: string
+                          - label: Responsive Width
+                            name: width
+                            widget: select
+                            hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
+                            options:
+                              - label: Full
+                                value: 1-2
+                              - label: Half
+                                value: 1-2
+                              - label: Third
+                                value: 1-3
+                              - label: Quarter
+                                value: 1-4
                       - label: Checkboxes
                         name: checkbox
                         widget: object
@@ -185,6 +237,19 @@ collections:
                               - label: Label
                                 name: label
                                 widget: string
+                          - label: Responsive Width
+                            name: width
+                            widget: select
+                            hint: Width of form field at medium and large screen sizes (will always be full width at small screen sizes).
+                            options:
+                              - label: Full
+                                value: 1-2
+                              - label: Half
+                                value: 1-2
+                              - label: Third
+                                value: 1-3
+                              - label: Quarter
+                                value: 1-4
                   - label: Submit Button Label
                     name: submit
                     widget: string
