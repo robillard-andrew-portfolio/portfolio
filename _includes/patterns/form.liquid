@@ -13,7 +13,7 @@
     {% elsif field.type == 'checkbox' %}
       <p class="bold mega push-1-2">{{ field.name }}:</p>
       {% for option in field.options %}
-      <input type="checkbox" id="{{ option.label | downcase | replace: ' ','-' }}" name="{{ field.name }}">
+      <input type="checkbox" id="{{ option.label | downcase | replace: ' ','-' }}" name="{{ option.label }}">
       <label class="push-r-1-2" for="{{ option.label | downcase | replace: ' ','-' }}">{{ option.label }}</label>
       {% endfor %}
     {% else %}

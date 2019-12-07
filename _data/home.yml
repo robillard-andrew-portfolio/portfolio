@@ -31,11 +31,5 @@ contact:
       - label: Message
         type: textarea
         width: 1
-      - name: Services
-        options:
-          - label: Video
-          - label: Motion Graphic
-          - label: Story Telling
-        type: checkbox
     submit: Submit
   title: Contact
