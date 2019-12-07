@@ -100,7 +100,7 @@ collections:
                     name: fields
                     widget: list
                     types:
-                      - label: Short Text Input
+                      - label: Short Text
                         name: text
                         widget: object
                         fields:
@@ -111,8 +111,30 @@ collections:
                             name: placeholder
                             widget: string
                             required: false
-                      - label: Long Text Input
+                      - label: Long Text
                         name: textarea
+                        widget: object
+                        fields:
+                          - label: Label
+                            name: label
+                            widget: string
+                          - label: Placeholder
+                            name: placeholder
+                            widget: string
+                            required: false
+                      - label: Email
+                        name: email
+                        widget: object
+                        fields:
+                          - label: Label
+                            name: label
+                            widget: string
+                          - label: Placeholder
+                            name: placeholder
+                            widget: string
+                            required: false
+                      - label: Telephone
+                        name: tel
                         widget: object
                         fields:
                           - label: Label
