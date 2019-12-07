@@ -20,9 +20,16 @@ contact:
   form:
     fields:
       - label: Full Name
-        placeholder: John Smith
         type: text
+        width: 1-2
+      - label: Email
+        type: email
+        width: 1-2
+      - label: Subject
+        type: text
+        width: 1
       - label: Message
         type: textarea
+        width: 1
     submit: Submit
   title: Contact

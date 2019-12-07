@@ -51,26 +51,6 @@ layout: default
         {{ site.data.home.contact.content | markdownify }}
       </div>
     </div>
-    <form class="grid island-1-2" action="#" method="post">
-      <div class="unit [ xs-1 m-1-2 ] island-1-2">
-        <input id="full-name" name="full-name" placeholder="Full Name*">
-        <label class="hidden" for="full-name">Full Name</label>
-      </div>
-      <div class="unit [ xs-1 m-1-2 ] island-1-2">
-        <input id="email" name="email" placeholder="Email*">
-        <label class="hidden" for="email">Email</label>
-      </div>
-      <div class="unit [ xs-1 ] island-1-2">
-        <input id="subject" name="subject" placeholder="Subject*">
-        <label class="hidden" for="subject">Subject</label>
-      </div>
-      <div class="unit [ xs-1 ] island-1-2">
-        <textarea id="message" name="message" placeholder="Message*"></textarea>
-        <label class="hidden" for="message">Message</label>
-      </div>
-      <div class="unit [ xs-1 ] island-1-2">
-        <button class="line-highlight giga bold" type="submit">Submit</button>
-      </div>
-    </form>
+    {% include patterns/form.liquid form=site.data.home.contact.form %}
   </div>
 </section>

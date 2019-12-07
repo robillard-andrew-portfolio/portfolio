@@ -122,6 +122,18 @@ collections:
                             name: placeholder
                             widget: string
                             required: false
+                      - label: Radio Buttons
+                        name: radio
+                        widget: object
+                        fields:
+                          - label: Group Nmae
+                            name: name
+                            widget: string
+                          - label: Options
+                            name: options
+                            widget: list
+                            fields:
+                              - label: Label
                   - label: Submit Button Label
                     name: submit
                     widget: string
