@@ -94,15 +94,37 @@ collections:
                 widget: markdown
               - label: Contact Form
                 name: form
-                widget: list
-                types:
-                  - label: Text Input
-                    name: text
-                    widget: object
-                    fields:
-                      - label: Label
-                        name: label
-                        widget: string
+                widget: object
+                fields:
+                  - label: Form Fields
+                    name: fields
+                    widget: list
+                    types:
+                      - label: Short Text Input
+                        name: text
+                        widget: object
+                        fields:
+                          - label: Label
+                            name: label
+                            widget: string
+                          - label: Placeholder
+                            name: placeholder
+                            widget: string
+                            required: false
+                      - label: Long Text Input
+                        name: textarea
+                        widget: object
+                        fields:
+                          - label: Label
+                            name: label
+                            widget: string
+                          - label: Placeholder
+                            name: placeholder
+                            widget: string
+                            required: false
+                  - label: Submit Button Label
+                    name: submit
+                    widget: string
   - label: Case Studies
     name: "case-studies"
     folder: "_case-studies"
