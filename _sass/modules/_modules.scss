@@ -852,22 +852,22 @@ select {
 [type="checkbox"] + label::before {
   content: " ";
   display: inline-block;
-  height: 1.8em;
+  height: 1.5em;
   margin-right: .3em;
   position: relative;
   vertical-align: middle;
   top: -.1em;
-  width: 1.8em;
+  width: 1.5em;
 
-  background-color: #fff;
+  background-color: transparent;
   background-size: cover;
-  border: 2px solid #666;
+  border: 2px solid #fff;
 
   line-height: inherit;
 }
 
 [type="checkbox"]:checked + label::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='%23000' stroke-miterlimit='10' stroke-width='50' d='M49.9 130.1l50.8 50.7L206.1 75.2'/%3E%3C/svg%3E");
+  background-color: #fff;
 }
 
 [type="checkbox"]:focus + label::before {
@@ -878,29 +878,37 @@ select {
 [type="radio"] + label::before {
   content: " ";
   display: inline-block;
-  height: 1.8em;
+  height: 1.5em;
   margin-right: .3em;
   position: relative;
   vertical-align: middle;
   top: -.1em;
-  width: 1.8em;
+  width: 1.5em;
 
-  background-color: #fff;
+  background-color: transparent;
   background-size: cover;
-  border: 2px solid #666;
+  border: 2px solid #fff;
   border-radius: 50%;
 
   line-height: inherit;
 }
 
 [type="radio"]:checked + label::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Ccircle cx='128' cy='128' r='70.4'/%3E%3C/svg%3E");
+  background-color: #fff;
 }
 
 [type="radio"]:focus + label::before,
 [type="radio"] + label:focus::before {
   box-shadow: 0 0 0 3px #000;
   z-index: 1000;
+}
+
+@include max(37.999) {
+  [type="checkbox"] + label,
+  [type="radio"] + label {
+    display: block;
+    margin-bottom: .65rem;
+  }
 }
 
 [type="range"] {

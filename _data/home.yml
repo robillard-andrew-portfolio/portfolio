@@ -31,11 +31,5 @@ contact:
       - label: Message
         type: textarea
         width: 1
-      - name: Job Type
-        options:
-          - label: Barter
-          - label: Not For Profit
-          - label: For Profit
-        type: radio
     submit: Submit
   title: Contact
