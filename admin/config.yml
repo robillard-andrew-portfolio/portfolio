@@ -272,6 +272,32 @@ collections:
         name: sections
         widget: list
         types:
+          - label: Image Banner
+            name: img-banner
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Image
+                name: img
+                widget: image
+          - label: Image Text Split (Top Aligned)
+            name: image-text-split-top
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Content Flip
+                name: flipped
+                widget: boolean
+              - label: Image
+                name: img
+                widget: image
+              - label: Content
+                name: content
+                widget: markdown
           - label: Image Text Split (Center Aligned)
             name: image-text-split-middle
             widget: object
