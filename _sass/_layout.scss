@@ -1,3 +1,14 @@
+@media only screen and (max-width: 37.999em) {
+
+  .overlap-text.pad-t-2 {
+    padding-top: .65rem;
+  }
+  .overlap-text.pad-t-2 .pad-t-2 {
+    padding-top: 0;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .overlap-img {
@@ -15,12 +26,26 @@
   }
 
 
+  .overlap.flipped {
+    .overlap-img {
+      order: 2;
+      .embed {
+        width: 133.333%;
+        transform: translateX(-25%);
+      }
+    }
+  }
+
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 
-  .overlap-text {
+  .overlap-text:not(.overlap.flipped .overlap-text) {
     padding-right: 8.33333%;
+  }
+
+  .overlap.flipped .overlap-text {
+    padding-left: 8.33333%;
   }
 
 }

@@ -263,8 +263,84 @@ collections:
         widget: string
       - label: Layout
         name: layout
-        default: default
+        default: bts
         widget: hidden
+      - label: Banner Image
+        name: bannerImg
+        widget: image
+      - label: Form Fields
+        name: fields
+        widget: list
+        types:
+          - label: Image Text Split (Center Aligned)
+            name: image-text-split-middle
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Content Flip
+                name: flipped
+                widget: boolean
+              - label: Image
+                name: img
+                widget: image
+              - label: Content
+                name: content
+                widget: markdown
+          - label: Video Embed
+            name: video-embed
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Video Link
+                name: link
+                widget: string
+          - label: Video Grid
+            name: video-grid
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Videos
+                name: videos
+                widget: list
+                fields:
+                  - label: Video Title
+                    name: title
+                    widget: string
+                  - label: Video Link
+                    name: link
+                    widget: string
+                  - label: Responsive Medium Width
+                    name: mWidth
+                    widget: select
+                    hint: Width of form field at medium screen sizes (will always be full width at small screen sizes).
+                    options:
+                      - label: Full
+                        value: 1
+                      - label: Half
+                        value: 1-2
+                      - label: Third
+                        value: 1-3
+                      - label: Quarter
+                        value: 1-4
+                  - label: Responsive Large Width
+                    name: lWidth
+                    widget: select
+                    hint: Width of form field at large screen sizes (will always be full width at small screen sizes).
+                    options:
+                      - label: Full
+                        value: 1
+                      - label: Half
+                        value: 1-2
+                      - label: Third
+                        value: 1-3
+                      - label: Quarter
+                        value: 1-4
   - label: Work
     name: "work"
     folder: "_work"

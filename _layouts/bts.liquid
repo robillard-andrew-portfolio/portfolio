@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% include patterns/banners/bts.liquid img=page.bannerImg title=page.title %}
+
+{% for section in page.sections %}
+  {% if section.type == 'image-text-split-top' %}
+    {% include patterns/image-text-split-top.liquid content=section.content img=section.img title=section.title flipped=section.flipped %}
+  {% elsif section.type == 'image-text-split-middle' %}
+    {% include patterns/image-text-split-middle.liquid content=section.content img=section.img title=section.title flipped=section.flipped %}
+  {% elsif section.type == 'img-banner' %}
+    {% include patterns/img-banner.liquid title=section.title img=section.img %}
+  {% elsif section.type == 'video-embed' %}
+    {% include patterns/video-embed.liquid title=section.title video=section.video %}
+  {% elsif section.type == 'video-grid' %}
+    {% include patterns/video-grid.liquid title=section.title videos=section.videos %}
+  {% endif %}
+{% endfor %}

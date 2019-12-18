@@ -2,7 +2,7 @@ permalink: pretty
 sass:
     style: expanded
 collections:
-  case-studies:
+  behind-the-scenes:
     output: true
     permalink: /:collection/:path/
   work:

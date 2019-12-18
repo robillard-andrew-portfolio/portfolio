@@ -1,0 +1,10 @@
+<section id="{{ include.title | downcase | replace: ' ','-' }}" class="push-2">
+  <div class="wrapper pad-t-2 pad-b-2 gutter text-center">
+    <h2>{{ include.title }}</h2>
+    <div class="gutter-2">
+      <div class="embed embed-2by1">
+        <iframe class="embed-item" src="{{ include.video }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>

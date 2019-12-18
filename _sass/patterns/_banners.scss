@@ -1,7 +1,14 @@
+.img-banner,
+.banner-bts {
+  @include bgBasic();
+  min-height: 65vh;
+  max-height: 32rem;
+  display: flex;
+  align-items: flex-end;
+}
+
 .vimeo-banner {
   position: relative;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100vh;
   // z-index: -1;
