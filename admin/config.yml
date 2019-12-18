@@ -296,7 +296,7 @@ collections:
                 name: title
                 widget: string
               - label: Video Link
-                name: link
+                name: video
                 widget: string
           - label: Video Grid
             name: video-grid
