@@ -253,9 +253,9 @@ collections:
                   - label: Submit Button Label
                     name: submit
                     widget: string
-  - label: Case Studies
-    name: "case-studies"
-    folder: "_case-studies"
+  - label: Behind the Scenes
+    name: "behind-the-scenes"
+    folder: "_behind-the-scenes"
     create: true
     fields:
       - label: Title
