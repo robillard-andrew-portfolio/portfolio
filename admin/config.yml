@@ -253,7 +253,7 @@ collections:
                   - label: Submit Button Label
                     name: submit
                     widget: string
-  - label: Behind the Scenes
+  - label: Case Studies
     name: "behind-the-scenes"
     folder: "_behind-the-scenes"
     create: true
@@ -268,8 +268,8 @@ collections:
       - label: Banner Image
         name: bannerImg
         widget: image
-      - label: Form Fields
-        name: fields
+      - label: Sections
+        name: sections
         widget: list
         types:
           - label: Image Text Split (Center Aligned)
