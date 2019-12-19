@@ -8,7 +8,7 @@ function minMediaQuery(minM) {
     if (vimeoBanner) {
       var vimeoBannerLink = document.querySelector('.vimeo-banner').getAttribute('data-video-link');
       var vimeoBannerContent = vimeoBanner.innerHTML;
-      var vimeoBannerNew = '<iframe id="vimeo_player" src="' + vimeoBannerLink + '?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player&background=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>' + vimeoBannerContent;
+var vimeoBannerNew = '<iframe id="vimeo_player" src="' + vimeoBannerLink + '?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player&background=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen tabindex="-1  "></iframe>' + vimeoBannerContent;
       vimeoBanner.innerHTML = vimeoBannerNew;
     }
   }
@@ -151,7 +151,9 @@ Array.from(vidLink).forEach(function(element) {
   element.addEventListener('click', vidLaunch);
 });
 
-vidCloser.addEventListener('click', vidClose);
+if (vidCloser) {
+  vidCloser.addEventListener('click', vidClose);
+}
 
 window.addEventListener('keydown', function(e) {
   if (e.keyCode == 27) {
@@ -164,3 +166,32 @@ window.addEventListener('keydown', function(e) {
 //   var link = vidLink.getAttribute('data-vimeo-link');
 //   popVid.setAttribute('src', link + '?autoplay=1&color=2c8Bd9&title=0&byline=0&portrait=0');
 // });
+
+const dropLi = document.querySelector('.has-dropdown');
+const dropFocusItem = document.querySelectorAll('.has-dropdown a');
+const dropBg = document.querySelector('.nav-focus-bg');
+
+function showDrop() {
+  // dropBg.style.display = 'block';
+  // dropBg.style.opacity = '.9';
+  dropBg.style.transform = 'none';
+  masthead.classList.add('nav-focused');
+}
+
+function hideDrop() {
+  // dropBg.style.opacity = '0';
+  // dropBg.style.display = 'none';
+  dropBg.removeAttribute('style');
+  masthead.classList.remove('nav-focused');
+}
+
+dropLi.addEventListener('mouseover', showDrop);
+dropLi.addEventListener('mouseout', hideDrop);
+
+Array.from(dropFocusItem).forEach(function(element) {
+  element.addEventListener('focus', showDrop);
+});
+
+Array.from(dropFocusItem).forEach(function(element) {
+  element.addEventListener('focusout', hideDrop);
+});

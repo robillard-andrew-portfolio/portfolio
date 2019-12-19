@@ -30,19 +30,4 @@ sections:
   - title: The Result
     type: video-embed
     video: 'https://player.vimeo.com/video/183719479'
-  - title: The Result
-    type: video-grid
-    videos:
-      - title: Video 1
-        mWidth: 1
-        lWidth: 1-3
-        link: 'https://player.vimeo.com/video/183719479'
-      - title: Video 2
-        mWidth: 1-2
-        lWidth: 1-3
-        link: 'https://player.vimeo.com/video/183719479'
-      - title: Video 3
-        mWidth: 1-2
-        lWidth: 1-3
-        link: 'https://player.vimeo.com/video/183719479'
 ---

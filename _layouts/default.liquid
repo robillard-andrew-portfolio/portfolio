@@ -30,7 +30,7 @@
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico"/>
 </head>
-<body id="top" class="{{page.pageClass}}">
+<body id="top">
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a class="skip-to-nav" href="#nav">Jump to navigation</a></li>
@@ -40,6 +40,7 @@
     {{ content }}
   </main>
   {% include patterns/footer.liquid %}
+  <div class="nav-focus-bg"></div>
   <script type="application/jd+json">
   {
     "@context": "https://schema.org",

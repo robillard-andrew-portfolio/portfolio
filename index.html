@@ -10,7 +10,7 @@ layout: default
     <div class="unit [ xs-1 m-1-2 ] video-preview">
       <a class="block embed embed-2by1 video-player-link" href="#video-player" data-video-link="{{ video.vimeo }}" aria-label="Select to play the video created for {{ video.title }}">
         <img class="embed-item" src="{{ video.img }}" alt="">
-        <h3 class="line-highlight absolute pin-c push-0 text-fff text-upper">{{ video.title }}</h3>
+        <h3 class="line-highlight absolute pin-c push-0 text-fff text-center text-upper">{{ video.title }}</h3>
       </a>
     </div>
     {% endif %}
@@ -26,7 +26,7 @@ layout: default
     </a>
   </div>
 </section>
-<section id="about" class="push-2">
+<section id="about" class="push-2" tabindex="0">
   <div class="wrapper pad-t-2 pad-b-2">
     <div class="grid grid-middle island-1-2 overlap">
       <div class="unit [ xs-1 m-1-2 ] island-1-2 overlap-img">
@@ -43,7 +43,7 @@ layout: default
     </div>
   </div>
 </section>
-<section id="contact" class="push-2">
+<section id="contact" class="push-2" tabindex="0">
   <div class="max-length pad-t-2 pad-b-2">
     <div class="island">
       <h2>{{ site.data.home.contact.title }}</h2>
