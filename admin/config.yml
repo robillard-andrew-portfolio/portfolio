@@ -69,6 +69,9 @@ collections:
               - label: Background Image
                 name: img
                 widget: image
+              - label: Vimeo Link
+                name: video
+                widget: string
           - label: About
             name: about
             widget: object

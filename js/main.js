@@ -8,7 +8,7 @@ function minMediaQuery(minM) {
     if (vimeoBanner) {
       var vimeoBannerLink = document.querySelector('.vimeo-banner').getAttribute('data-video-link');
       var vimeoBannerContent = vimeoBanner.innerHTML;
-var vimeoBannerNew = '<iframe id="vimeo_player" src="' + vimeoBannerLink + '?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player&background=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen tabindex="-1  "></iframe>' + vimeoBannerContent;
+      var vimeoBannerNew = '<iframe id="vimeo_player" src="' + vimeoBannerLink + '?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player&background=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen tabindex="-1  "></iframe>' + vimeoBannerContent;
       vimeoBanner.innerHTML = vimeoBannerNew;
     }
   }
