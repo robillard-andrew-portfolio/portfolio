@@ -1,5 +1,5 @@
 ---
-title: Perfect Skating
+title: Chasing Pros
 layout: bts
 bannerImg: /images/uploads/Me 1.jpg
 sections:
