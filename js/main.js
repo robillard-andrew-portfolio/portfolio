@@ -125,7 +125,7 @@ var vidLink = document.querySelectorAll('.video-player-link');
 const vidWrap = document.querySelector('.video-player-wrap');
 const vidPlayer = document.getElementById('video-player');
 const vidCloser = document.getElementById('video-closer');
-
+const reelLaunch = document.querySelector('.reel-link');
 // vidWrap.style.height = 'calc(100vh - ' + (dropTop - 1) + 'px)';
 // vidWrap.style.top = (dropTop - 1) + 'px';
 
@@ -146,6 +146,8 @@ function vidClose(e) {
     vidPlayer.setAttribute('src', '');
   }, 150);
 }
+
+reelLaunch.addEventListener('click', vidLaunch);
 
 Array.from(vidLink).forEach(function(element) {
   element.addEventListener('click', vidLaunch);
