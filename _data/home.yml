@@ -1,10 +1,11 @@
 reel:
   desc: Demo Reel 2020
-  video: 'https://player.vimeo.com/video/384437336'
+  video: 'https://player.vimeo.com/video/185239002'
 banner:
   img: /images/uploads/2.jpg
   title: TELL ME ABOUT YOUR PROJECT
-  video: 'https://player.vimeo.com/video/384438409'
+  video: 'https://player.vimeo.com/video/384437336'
+  # video: 'https://player.vimeo.com/video/384438409'
 about:
   content: >-
     I am a cinematographer and musician from Ottawa, Canada. I’ve been creating
