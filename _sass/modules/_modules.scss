@@ -1045,9 +1045,9 @@ button:not(.line-highlight),
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #333;
+  background-color: #1a1a1a;
   border-radius: 4px;
-  border: 3px solid #333;
+  border: 3px solid #1a1a1a;
   color: #fff;
   font: inherit;
   text-decoration: none;
@@ -1092,7 +1092,7 @@ button[disabled] {
 .btn-ghost,
 .btn--ghost {
   background-color: transparent;
-  border-color: #333;
+  border-color: #1a1a1a;
   color: #000;
 }
 

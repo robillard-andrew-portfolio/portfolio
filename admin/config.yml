@@ -76,6 +76,24 @@ collections:
               - label: Headline
                 name: title
                 widget: string
+              - label: Byline
+                name: byline
+                widget: string
+                required: false
+              - label: Button
+                name: btn
+                widget: object
+                required: false
+                fields:
+                  - label: Button Text
+                    name: text
+                    widget: string
+                    required: false
+                  - label: Button URL
+                    name: url
+                    widget: string
+                    hint: If this field is empty, the button will not appear.
+                    required: false
               - label: Background Image
                 name: img
                 widget: image
@@ -89,6 +107,9 @@ collections:
               - label: Title
                 name: title
                 widget: string
+              - label: Content Overlap
+                name: overlap
+                widget: boolean
               - label: Image
                 name: img
                 widget: image
@@ -305,6 +326,9 @@ collections:
               - label: Content Flip
                 name: flipped
                 widget: boolean
+              - label: Content Overlap
+                name: overlap
+                widget: boolean
               - label: Image
                 name: img
                 widget: image
@@ -320,6 +344,9 @@ collections:
                 widget: string
               - label: Content Flip
                 name: flipped
+                widget: boolean
+              - label: Content Overlap
+                name: overlap
                 widget: boolean
               - label: Image
                 name: img

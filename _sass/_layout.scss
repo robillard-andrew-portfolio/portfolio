@@ -25,9 +25,14 @@
     z-index: 2;
   }
 
+  .flipped {
+    .unit:first-child {
+      order: 2;
+    }
+  }
 
   .overlap.flipped {
-    .overlap-img {
+    .unit:first-child {
       order: 2;
       .embed {
         width: 133.333%;
@@ -35,6 +40,7 @@
       }
     }
   }
+
 
 }
 

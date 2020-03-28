@@ -3,23 +3,27 @@ reel:
   video: 'https://player.vimeo.com/video/185239002'
 banner:
   img: /images/uploads/2.jpg
-  title: TELL ME ABOUT YOUR PROJECT
+  title: Tell me about your project
+  byline:
+  btn:
+    text: Learn More
+    url:
   video: 'https://player.vimeo.com/video/384437336'
   # video: 'https://player.vimeo.com/video/384438409'
 about:
-  content: >-
+  content: |-
     I am a cinematographer and musician from Ottawa, Canada. I’ve been creating
     videos for the past decade and am more excited than ever to be
     doing&nbsp;so.
-
 
     I consider myself pretty easy going, and I think that making videos should
     be enjoyable for everyone involved. If that makes sense to you then let’s
     talk about your ideas!
   img: /images/uploads/about-me.jpg
   title: About
+  overlap: true
 contact:
-  content: >-
+  content: |-
     Let me know what you are looking to create and I will let you know how I can
     help.
   form:

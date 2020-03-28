@@ -6,9 +6,9 @@ layout: default
 
 {% for section in page.sections %}
   {% if section.type == 'image-text-split-top' %}
-    {% include patterns/image-text-split-top.liquid content=section.content img=section.img title=section.title flipped=section.flipped %}
+    {% include patterns/image-text-split-top.liquid content=section.content img=section.img title=section.title flipped=section.flipped overlap=section.overlap %}
   {% elsif section.type == 'image-text-split-middle' %}
-    {% include patterns/image-text-split-middle.liquid content=section.content img=section.img title=section.title flipped=section.flipped %}
+    {% include patterns/image-text-split-middle.liquid content=section.content img=section.img title=section.title flipped=section.flipped overlap=section.overlap %}
   {% elsif section.type == 'img-banner' %}
     {% include patterns/img-banner.liquid title=section.title img=section.img %}
   {% elsif section.type == 'video-embed' %}

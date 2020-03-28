@@ -147,7 +147,9 @@ function vidClose(e) {
   }, 150);
 }
 
-reelLaunch.addEventListener('click', vidLaunch);
+if (reelLaunch) {
+  reelLaunch.addEventListener('click', vidLaunch);
+}
 
 Array.from(vidLink).forEach(function(element) {
   element.addEventListener('click', vidLaunch);
@@ -173,16 +175,14 @@ const dropLi = document.querySelector('.has-dropdown');
 const dropFocusItem = document.querySelectorAll('.has-dropdown a');
 const dropBg = document.querySelector('.nav-focus-bg');
 
+console.log('exists');
+
 function showDrop() {
-  // dropBg.style.display = 'block';
-  // dropBg.style.opacity = '.9';
   dropBg.style.transform = 'none';
   masthead.classList.add('nav-focused');
 }
 
 function hideDrop() {
-  // dropBg.style.opacity = '0';
-  // dropBg.style.display = 'none';
   dropBg.removeAttribute('style');
   masthead.classList.remove('nav-focused');
 }

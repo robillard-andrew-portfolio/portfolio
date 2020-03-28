@@ -1,12 +1,12 @@
 <section id="{{ include.title | downcase | replace: ' ','-' }}" class="push-2">
   <div class="wrapper pad-t-2 pad-b-2">
-    <div class="grid grid-top island-1-2 overlap{% if include.flipped == true %} flipped{% endif %}">
-      <div class="unit [ xs-1 m-1-2 ] island-1-2 overlap-img">
+    <div class="grid grid-top island-1-2{% if include.overlap == true %} overlap{% endif %}{% if include.flipped == true %} flipped{% endif %}">
+      <div class="unit [ xs-1 m-1-2 ] island-1-2{% if include.overlap == true %} overlap-img{% endif %}">
         <div class="embed embed-16by9 bg-grey-dark">
           <img class="embed-item" src="{{ include.img }}" alt="">
         </div>
       </div>
-      <div class="unit [ xs-1 m-1-2 ] gutter-1-2 pad-t-2 pad-b-1-2 overlap-text">
+      <div class="unit [ xs-1 m-1-2 ] gutter-1-2 pad-t-2 pad-b-1-2{% if include.overlap == true %} overlap-text{% endif %}">
         <div class="pad-t-2">
           <h2>{{ include.title }}</h2>
           <div class="markdown">

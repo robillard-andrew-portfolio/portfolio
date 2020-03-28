@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include patterns/banners/vimeo-banner.liquid title=site.data.home.banner.title img=site.data.home.banner.img video=site.data.home.banner.video reel=site.data.home.reel.video %}
+{% include patterns/banners/vimeo-banner.liquid banner=site.data.home.banner reel=site.data.home.reel.video %}
 <section id="work" class="push-2">
   <h2 class="hidden">Work</h2>
   <div class="grid">
@@ -29,12 +29,12 @@ layout: default
 <section id="about" class="push-2" tabindex="0">
   <div class="wrapper pad-t-2 pad-b-2">
     <div class="grid grid-middle island-1-2 overlap">
-      <div class="unit [ xs-1 m-1-2 ] island-1-2 overlap-img">
+      <div class="unit [ xs-1 m-1-2 ] island-1-2{% if site.data.home.about.overlap == true %} overlap-img{% endif %}">
         <div class="embed embed-16by9 bg-grey-dark">
           <img class="embed-item" src="{{ site.data.home.about.img }}" alt="">
         </div>
       </div>
-      <div class="unit [ xs-1 m-1-2 ] island-1-2 overlap-text">
+      <div class="unit [ xs-1 m-1-2 ] island-1-2{% if site.data.home.about.overlap == true %} overlap-text{% endif %}">
         <h2>{{ site.data.home.about.title }}</h2>
         <div class="markdown">
           {{ site.data.home.about.content | markdownify }}
