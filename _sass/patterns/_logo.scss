@@ -10,7 +10,7 @@
       position: absolute;
       width: 3rem;
       height: 3px;
-      background-color: #fff;
+      background-color: $line-color;
       opacity: 0;
       transition:
         opacity .25s,
@@ -43,7 +43,7 @@
     a {
       &::after,
       &::before {
-        background-color: #fff;
+        background-color: $line-color;
       }
     }
   }

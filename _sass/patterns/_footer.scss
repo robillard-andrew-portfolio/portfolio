@@ -21,7 +21,8 @@
       }
       .icon-link {
         @include hov() {
-          opacity: .75;
+          // opacity: .75;
+          color: $line-color;
         }
       }
     }

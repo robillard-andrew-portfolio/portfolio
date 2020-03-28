@@ -34,7 +34,7 @@ h2,
     max-width: 3rem;
     width: 33.3333%;
     height: 3px;
-    background-color: #fff;
+    background-color: $line-color;
     transition:
       opacity .25s,
       left 1.5s cubic-bezier(.15,.88,.94,1.14),
