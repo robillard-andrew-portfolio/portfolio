@@ -9,6 +9,11 @@ a {
   transition: all $transition;
 }
 
+a.no-link {
+  pointer-events: none;
+  cursor: default;
+}
+
 h2 {
   display: inline-block;
 }

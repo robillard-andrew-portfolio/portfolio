@@ -69,6 +69,16 @@
       }
     }
   }
+  @media only screen and (max-width: 38em) {
+
+    .vimeo-banner-title {
+      &::after,
+      &::before {
+        display: none;
+      }
+    }
+
+  }
   .scroller-wrap {
     display: flex;
     flex-direction: column;

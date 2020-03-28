@@ -139,8 +139,14 @@ function vidLaunch(e) {
 }
 
 function vidClose(e) {
+  var vimLink = document.querySelector('.vimeo-banner').getAttribute('data-video-link');
+  var vimEmbed = document.getElementById('vimeo_player');
   e.preventDefault();
   vidWrap.style.opacity = '0';
+  if (vimEmbed) {
+    vimEmbed.setAttribute('src', vimLink + '?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player&background=1');
+    console.log('running');
+  }
   setTimeout(function() {
     vidWrap.removeAttribute('style');
     vidPlayer.setAttribute('src', '');
