@@ -27,6 +27,7 @@ contact:
     Let me know what you are looking to create and I will let you know how I can
     help.
   form:
+    email: hello@adamrobillard.ca
     fields:
       - label: Full Name
         type: text

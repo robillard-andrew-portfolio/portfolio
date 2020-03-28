@@ -1,4 +1,4 @@
-<form class="grid island-1-2" action="#" method="post">
+<form class="grid island-1-2" action="//formspree.io/{{ include.form.email }}" method="post">
   {% for field in include.form.fields %}
     <div class="unit [ xs-1 m-{{ field.width }} ] island-1-2">
     {% if field.type == 'textarea' %}

@@ -130,6 +130,10 @@ collections:
                 name: form
                 widget: object
                 fields:
+                  - label: Contact Email
+                    name: email
+                    widget: string
+                    hint: Enter the email you want the contact form submissions to be sent to.
                   - label: Form Fields
                     name: fields
                     widget: list
