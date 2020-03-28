@@ -1,6 +1,8 @@
 .img-banner,
 .banner-bts {
-  @include bgBasic();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 284.44444vh 160vh;
   min-height: 65vh;
   max-height: 32rem;
   display: flex;
@@ -20,8 +22,8 @@
     height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
     // min-height: 120vh;
     // min-width: 213.33333333vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
-    min-height: 160vh;
-    min-width: 284.44444vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+    min-height: 120vh;
+    min-width: 213.3333333333vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
     position: absolute;
     top: 50%;
     left: 50%;
