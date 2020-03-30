@@ -3,8 +3,8 @@ reel:
   video: 'https://player.vimeo.com/video/185239002'
 banner:
   img: /images/uploads/bg.jpg
-  title: Tell me about your project
-  byline: null
+  title: Accessible Video Production
+  byline: Talk to me about remote video production during the Covid-19 crisis!
   btn:
     text: Learn More
     url: null
