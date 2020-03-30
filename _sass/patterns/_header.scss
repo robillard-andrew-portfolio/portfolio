@@ -25,6 +25,9 @@
     height: 100%;
     // width: 100%;
   }
+  h1 {
+    letter-spacing: $tracking;
+  }
   @media only screen and (min-width: 38em) and (max-width: 750px) {
     font-size: .9090909091rem;
     h1 {
