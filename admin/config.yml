@@ -326,7 +326,31 @@ collections:
                 name: img
                 widget: image
           - label: Image Text Split (Top Aligned)
-            name: image-text-split-top
+            name: image-text-split-top-aligned
+            widget: object
+            fields:
+              - label: Enabled
+                name: enabled
+                widget: boolean
+                default: true
+                hint: This switch must be turn on in order to show this content block.
+              - label: Title
+                name: title
+                widget: string
+              - label: Content Flip
+                name: flipped
+                widget: boolean
+              - label: Content Overlap
+                name: overlap
+                widget: boolean
+              - label: Image
+                name: img
+                widget: image
+              - label: Content
+                name: content
+                widget: markdown
+          - label: Image Text Split (Offset from Top)
+            name: image-text-split-top-offset
             widget: object
             fields:
               - label: Enabled
