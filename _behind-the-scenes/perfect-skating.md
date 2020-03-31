@@ -6,7 +6,7 @@ sections:
   - flipped: true
     overlap: true
     img: /images/uploads/Josi.jpg
-    title: The Project
+    title: 'Switzerland to California: Filming Pro Athletes'
     type: image-text-split-top
     content: |-
       In 2017 I was working as the Creative Lead for a company called Perfect
