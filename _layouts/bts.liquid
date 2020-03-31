@@ -5,15 +5,17 @@ layout: default
 {% include patterns/banners/bts.liquid img=page.bannerImg title=page.title %}
 
 {% for section in page.sections %}
-  {% if section.type == 'image-text-split-top' %}
-    {% include patterns/image-text-split-top.liquid content=section.content img=section.img title=section.title flipped=section.flipped overlap=section.overlap %}
-  {% elsif section.type == 'image-text-split-middle' %}
+  {% if section.type == 'image-text-split-top-offset' and section.enabled == true %}
+    {% include patterns/image-text-split-top-offset.liquid content=section.content img=section.img title=section.title flipped=section.flipped overlap=section.overlap %}
+  {% elsif section.type == 'image-text-split-top-aligned' and section.enabled == true %}
+    {% include patterns/image-text-split-top-aligned.liquid content=section.content img=section.img title=section.title flipped=section.flipped overlap=section.overlap %}
+  {% elsif section.type == 'image-text-split-middle' and section.enabled == true %}
     {% include patterns/image-text-split-middle.liquid content=section.content img=section.img title=section.title flipped=section.flipped overlap=section.overlap %}
-  {% elsif section.type == 'img-banner' %}
+  {% elsif section.type == 'img-banner' and section.enabled == true %}
     {% include patterns/img-banner.liquid title=section.title img=section.img %}
-  {% elsif section.type == 'video-embed' %}
+  {% elsif section.type == 'video-embed' and section.enabled == true %}
     {% include patterns/video-embed.liquid title=section.title video=section.video %}
-  {% elsif section.type == 'video-grid' %}
+  {% elsif section.type == 'video-grid' and section.enabled == true %}
     {% include patterns/video-grid.liquid title=section.title videos=section.videos %}
   {% endif %}
 {% endfor %}

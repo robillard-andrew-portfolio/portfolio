@@ -1,4 +1,4 @@
-<section id="{{ include.title | downcase | replace: ' ','-' }}" class="push-2">
+<section id="{{ include.title | slugify }}" class="push-2">
   <div class="wrapper pad-t-2 pad-b-2 gutter text-center">
     <h2>{{ include.title }}</h2>
     <div class="grid island-1-2">

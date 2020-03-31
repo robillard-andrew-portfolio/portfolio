@@ -4,10 +4,11 @@ layout: bts
 bannerImg: /images/uploads/Me 1.jpg
 sections:
   - flipped: true
+    enabled: true
     overlap: false
     img: /images/uploads/Josi.jpg
     title: What made this trip unique was...
-    type: image-text-split-top
+    type: image-text-split-top-aligned
     content: >-
       In 2017 I was the Creative Director of Perfect Skating, a hockey
       development company that works with NHL hockey players from around the
@@ -21,9 +22,11 @@ sections:
       for the next 12 days as he did the same in northern Sweden, then across to
       California, Colorado, and Wisconsin before returning home to Ottawa.
   - img: /images/uploads/Swiss.jpg
+    enabled: true
     title: The Trip
     type: img-banner
   - flipped: true
+    enabled: true
     overlap: true
     img: /images/uploads/Smitty.jpg
     title: The Challenge
@@ -35,6 +38,7 @@ sections:
       checked luggage. Along the way I’d be documenting Shawns work with various
       athletes, filming on the ice, recording podcasts, etc…
   - flipped: false
+    enabled: true
     overlap: true
     img: /images/uploads/Colorado.jpg
     title: The Solution
@@ -43,6 +47,7 @@ sections:
       Having grown up a hockey fan, I was quite excited to get a peek into the
       NHL world, as well as the chance to travel around Europe!
   - title: The Result
+    enabled: true
     type: video-embed
     video: 'https://player.vimeo.com/video/384438409'
 ---

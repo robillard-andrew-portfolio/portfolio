@@ -2,23 +2,23 @@
   {% for field in include.form.fields %}
     <div class="unit [ xs-1 m-{{ field.width }} ] island-1-2">
     {% if field.type == 'textarea' %}
-      <input id="{{ field.label | downcase | replace: ' ','-' }}" name="{{ field.label | downcase | replace: ' ','-' }}" placeholder="{% if field.placeholder %}{{ field.placeholder }}{% else %}{{ field.label }}*{% endif %}">
-      <label class="hidden" for="{{ field.label | downcase | replace: ' ','-' }}">{{ field.label }}</label>
+      <input id="{{ field.label | slugify }}" name="{{ field.label | slugify }}" placeholder="{% if field.placeholder %}{{ field.placeholder }}{% else %}{{ field.label }}*{% endif %}">
+      <label class="hidden" for="{{ field.label | slugify }}">{{ field.label }}</label>
     {% elsif field.type == 'radio' %}
       <p class="bold mega push-1-2">{{ field.name }}:</p>
       {% for option in field.options %}
-      <input type="radio" id="{{ option.label | downcase | replace: ' ','-' }}" name="{{ field.name }}">
-      <label class="push-r-1-2" for="{{ option.label | downcase | replace: ' ','-' }}">{{ option.label }}</label>
+      <input type="radio" id="{{ option.label | slugify }}" name="{{ field.name }}">
+      <label class="push-r-1-2" for="{{ option.label | slugify }}">{{ option.label }}</label>
       {% endfor %}
     {% elsif field.type == 'checkbox' %}
       <p class="bold mega push-1-2">{{ field.name }}:</p>
       {% for option in field.options %}
-      <input type="checkbox" id="{{ option.label | downcase | replace: ' ','-' }}" name="{{ option.label }}">
-      <label class="push-r-1-2" for="{{ option.label | downcase | replace: ' ','-' }}">{{ option.label }}</label>
+      <input type="checkbox" id="{{ option.label | slugify }}" name="{{ option.label }}">
+      <label class="push-r-1-2" for="{{ option.label | slugify }}">{{ option.label }}</label>
       {% endfor %}
     {% else %}
-      <input {% unless field.type == 'text' %}type="{{ field.type }}" {% endunless %}id="{{ field.label | downcase | replace: ' ','-' }}" name="{{ field.label | downcase | replace: ' ','-' }}" placeholder="{% if field.placeholder %}{{ field.placeholder }}{% else %}{{ field.label }}*{% endif %}">
-      <label class="hidden" for="{{ field.label | downcase | replace: ' ','-' }}">{{ field.label }}</label>
+      <input {% unless field.type == 'text' %}type="{{ field.type }}" {% endunless %}id="{{ field.label | slugify }}" name="{{ field.label | slugify }}" placeholder="{% if field.placeholder %}{{ field.placeholder }}{% else %}{{ field.label }}*{% endif %}">
+      <label class="hidden" for="{{ field.label | slugify }}">{{ field.label }}</label>
     {% endif %}
     </div>
   {% endfor %}

@@ -314,6 +314,11 @@ collections:
             name: img-banner
             widget: object
             fields:
+              - label: Enabled
+                name: enabled
+                widget: boolean
+                default: true
+                hint: This switch must be turn on in order to show this content block.
               - label: Title
                 name: title
                 widget: string
@@ -324,6 +329,11 @@ collections:
             name: image-text-split-top
             widget: object
             fields:
+              - label: Enabled
+                name: enabled
+                widget: boolean
+                default: true
+                hint: This switch must be turn on in order to show this content block.
               - label: Title
                 name: title
                 widget: string
@@ -343,6 +353,11 @@ collections:
             name: image-text-split-middle
             widget: object
             fields:
+              - label: Enabled
+                name: enabled
+                widget: boolean
+                default: true
+                hint: This switch must be turn on in order to show this content block.
               - label: Title
                 name: title
                 widget: string
@@ -362,6 +377,11 @@ collections:
             name: video-embed
             widget: object
             fields:
+              - label: Enabled
+                name: enabled
+                widget: boolean
+                default: true
+                hint: This switch must be turn on in order to show this content block.
               - label: Title
                 name: title
                 widget: string
@@ -372,6 +392,11 @@ collections:
             name: video-grid
             widget: object
             fields:
+              - label: Enabled
+                name: enabled
+                widget: boolean
+                default: true
+                hint: This switch must be turn on in order to show this content block.
               - label: Title
                 name: title
                 widget: string

@@ -1,4 +1,4 @@
-<section id="{{ include.title | downcase | replace: ' ','-' }}" class="push-2">
+<section id="{{ include.title | slugify }}" class="push-2">
   <div class="wrapper pad-t-2 pad-b-2">
     <div class="grid grid-top island-1-2{% if include.overlap == true %} overlap{% endif %}{% if include.flipped == true %} flipped{% endif %}">
       <div class="unit [ xs-1 m-1-2 ] island-1-2{% if include.overlap == true %} overlap-img{% endif %}">

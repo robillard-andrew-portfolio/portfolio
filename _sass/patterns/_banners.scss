@@ -2,7 +2,7 @@
 .banner-bts {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 284.44444vh 160vh;
+  background-size: cover;
   min-height: 65vh;
   max-height: 32rem;
   display: flex;
@@ -133,6 +133,39 @@
       bottom: 100%;
       left: 0;
       animation: scrollInner 2s cubic-bezier(.75, 0, .25, 1) infinite;
+    }
+  }
+  .banner-btn-orange-line {
+    color: $line-color;
+    &::after,
+    &::before {
+      background-color: #fff;
+    }
+  }
+  .banner-btn-orange-bg {
+    color: $line-color;
+    background-color: transparent;
+    padding: .25em 1em;
+    &::after,
+    &::before {
+      display: none;
+    }
+    @include hov() {
+      background-color: $line-color;
+      color: #fff;
+    }
+  }
+  .banner-btn-orange-outline {
+    color: $line-color;
+    border: 3px solid transparent;
+    padding: .25em 1em;
+    &::after,
+    &::before {
+      display: none;
+    }
+    @include hov() {
+      border-color: $line-color;
+      // color: #fff;
     }
   }
 }
