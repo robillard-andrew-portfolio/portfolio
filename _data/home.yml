@@ -8,7 +8,7 @@ banner:
   btn:
     text: Learn More
     style: banner-btn-orange-outline
-    url: 'https://robillard-andrew-portfolio.netlify.com'
+    url: /behind-the-scenes/perfect-skating/
   video: 'https://player.vimeo.com/video/384437336'
 about:
   content: |-
