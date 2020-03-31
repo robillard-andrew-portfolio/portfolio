@@ -92,7 +92,18 @@ collections:
                   - label: Button URL
                     name: url
                     widget: string
-                    hint: If this field is empty, the button will not appear.
+                    hint: If this field is empty, the button will not appear. If the button links within your site, only put relative path. AKA do not include the https://andrewrobillard.ca part. Include everything from the '/' onwards.
+                    required: false
+                  - label: Button Style
+                    name: style
+                    widget: select
+                    options:
+                      - label: Line Highlight
+                        value: ""
+                      - label: Orange Background Hover
+                        value: banner-btn-orange-bg
+                      - label: Orange Outline Hover
+                        value: banner-btn-orange-outline
                     required: false
               - label: Background Image
                 name: img
