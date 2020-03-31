@@ -1,24 +1,25 @@
 ---
-title: Chasing Pros
+title: 'Switzerland to California: Filming Pro Athletes'
 layout: bts
 bannerImg: /images/uploads/Me 1.jpg
 sections:
   - flipped: true
-    overlap: true
+    overlap: false
     img: /images/uploads/Josi.jpg
-    title: 'Switzerland to California: Filming Pro Athletes'
+    title: What made this trip unique was...
     type: image-text-split-top
-    content: |-
-      In 2017 I was working as the Creative Lead for a company called Perfect
-      Skating. The founder of the company, Shawn Allard, is a former
-      professional hockey player and now works with NHL/Pro athletes around the
-      world on their skating/performance.
+    content: >-
+      In 2017 I was the Creative Director of Perfect Skating, a hockey
+      development company that works with NHL hockey players from around the
+      world. It was founded by Shawn Allard, a former professional hockey player
+      himself, who is the current performance/skills coach of the Colorado
+      Avalanche.
 
 
-      I met up with Shawn in Switzerland in August 2017 to join him on his
-      travels for 12 days, going from Switzerland, to Sweden, Los Angeles,
-      Colorado, Wisconsin, and then finally home to Ottawa. In all I passed
-      through 12 airports in 12 days, as well as numerous trains.
+      In August of 2017, Shawn was working with some players in Switzerland. He
+      asked me to meet him there so that I could follow and document his work
+      for the next 12 days as he did the same in northern Sweden, then across to
+      California, Colorado, and Wisconsin before returning home to Ottawa.
   - img: /images/uploads/Swiss.jpg
     title: The Trip
     type: img-banner
