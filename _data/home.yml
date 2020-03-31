@@ -21,7 +21,7 @@ about:
     talk about your ideas!
   img: /images/uploads/about-me.jpg
   title: About
-  overlap: true
+  overlap: false
 contact:
   content: |-
     Let me know what you are looking to create and I will let you know how I can
