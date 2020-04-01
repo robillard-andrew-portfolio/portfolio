@@ -49,5 +49,5 @@ sections:
   - title: The Result
     enabled: true
     type: video-embed
-    video: 'https://vimeo.com/384437336'
+    video: 'https://player.vimeo.com/video/384437336'
 ---
