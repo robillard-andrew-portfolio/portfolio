@@ -27,7 +27,7 @@ sections:
     type: img-banner
   - flipped: true
     enabled: true
-    overlap: true
+    overlap: false
     img: /images/uploads/Smitty.jpg
     title: The Challenge
     type: image-text-split-middle
@@ -39,7 +39,7 @@ sections:
       athletes, filming on the ice, recording podcasts, etc…
   - flipped: false
     enabled: true
-    overlap: true
+    overlap: false
     img: /images/uploads/Colorado.jpg
     title: The Solution
     type: image-text-split-middle
@@ -49,5 +49,5 @@ sections:
   - title: The Result
     enabled: true
     type: video-embed
-    video: 'https://player.vimeo.com/video/384438409'
+    video: 'https://vimeo.com/384437336'
 ---
