@@ -8,7 +8,7 @@ banner:
   btn:
     text: Learn More
     style: banner-btn-orange-outline
-    url: /behind-the-scenes/perfect-skating/
+    url: '#contact'
   video: 'https://player.vimeo.com/video/403377484'
 about:
   content: >-
