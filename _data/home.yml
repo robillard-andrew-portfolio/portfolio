@@ -1,15 +1,15 @@
 reel:
   desc: Demo Reel 2020
-  video: 'https://player.vimeo.com/video/185239002'
+  video: 'https://player.vimeo.com/video/403377683'
 banner:
-  img: /images/uploads/bg.jpg
+  img: /images/uploads/bg-still.jpg
   title: Accessible Video Production
   byline: Talk to me about remote video production during the Covid-19 crisis!
   btn:
     text: Learn More
     style: banner-btn-orange-outline
     url: /behind-the-scenes/perfect-skating/
-  video: 'https://player.vimeo.com/video/384437336'
+  video: 'https://player.vimeo.com/video/403377484'
 about:
   content: |-
     I am a cinematographer and musician from Ottawa, Canada. I’ve been creating
