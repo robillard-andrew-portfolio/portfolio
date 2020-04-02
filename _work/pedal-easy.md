@@ -1,7 +1,6 @@
 ---
 title: Pedal Easy
-vimeo: '#'
-thumbnail: /images/uploads/Pedal Easy.jpg
+vimeo: 'https://player.vimeo.com/video/403353037'
+thumbnail: /images/uploads/pedal-easy.jpg
 active: true
 ---
-
