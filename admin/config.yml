@@ -479,6 +479,9 @@ collections:
       - label: Title
         name: title
         widget: string
+      - label: Order
+        name: order
+        widget: string
       - label: Description
         name: meta
         widget: string
