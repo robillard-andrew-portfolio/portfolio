@@ -11,10 +11,11 @@ banner:
     url: /behind-the-scenes/perfect-skating/
   video: 'https://player.vimeo.com/video/403377484'
 about:
-  content: |-
-    I am a cinematographer and musician from Ottawa, Canada. I’ve been creating
-    videos for the past decade and am more excited than ever to be
-    doing&nbsp;so.
+  content: >-
+    I am a cinematographer, editor, and musician from Ottawa, Canada. I’ve been
+    creating videos for the past decade and am more excited than ever to be
+    doing so.
+
 
     I consider myself pretty easy going, and I think that making videos should
     be enjoyable for everyone involved. If that makes sense to you then let’s
@@ -23,9 +24,9 @@ about:
   title: About
   overlap: false
 contact:
-  content: |-
-    Let me know what you are looking to create and I will let you know how I can
-    help.
+  content: >-
+    Covid-19 may have us socially distant, but that doesn't mean we can't still
+    create interesting content!
   form:
     email: hello@adamrobillard.ca
     fields:
