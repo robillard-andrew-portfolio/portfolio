@@ -5,7 +5,8 @@ layout: default
 <section id="work" class="push-2">
   <h2 class="hidden">Work</h2>
   <div class="grid">
-    {% for video in site.work %}
+    {% assign work_in_order = site.work | sort: "order" %}
+    {% for video in work_in_order %}
     {% if video.active == true %}
     <div class="unit [ xs-1 m-1-2 ] video-preview">
       <a class="block embed embed-2by1 video-player-link" href="#video-player" data-video-link="{{ video.vimeo }}" aria-label="Select to play the video created for {{ video.title }}">
