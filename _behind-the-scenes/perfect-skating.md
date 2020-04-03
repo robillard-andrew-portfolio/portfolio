@@ -1,12 +1,12 @@
 ---
-title: 'Switzerland to California: Filming Pro Athletes'
+title: NHL Off-Season
 layout: bts
 bannerImg: /images/uploads/Me 1.jpg
 sections:
   - flipped: true
     enabled: true
     overlap: false
-    img: /images/uploads/Josi.jpg
+    img: /images/uploads/bern-1.jpg
     title: What made this trip unique was...
     type: image-text-split-top-aligned
     content: >-
