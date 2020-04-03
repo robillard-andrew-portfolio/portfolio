@@ -17,13 +17,7 @@ sections:
       Sweden, and then across the United States. It was a bit of a last minute
       decision and the itinerary of the trip was still being worked out as I was
       jumping between trains and flights to get from Ottawa, ON to Bern,
-      Switzerland. 
-
-
-      Without a lot of details, I did my best to guess what I would need and fit
-      all my gear and clothing into carry on luggage knowing I wouldn't have
-      time to check luggage along the way.  Who knew you could bring sharp
-      hockey skates in your carry on?
+      Switzerland.
   - img: /images/uploads/Swiss.jpg
     enabled: true
     title: The Trip
@@ -31,15 +25,24 @@ sections:
   - flipped: true
     enabled: true
     overlap: false
-    img: /images/uploads/Smitty.jpg
+    img: /images/uploads/shwan.jpg
     title: The Challenge
     type: image-text-split-middle
-    content: |-
-      I had to fit my filming, photo, and audio gear, as well as skates,
-      clothing, footwear, etc… all into carry on luggage. The travel schedule
-      was very tight and I couldn’t afford to have anything get delayed in
-      checked luggage. Along the way I’d be documenting Shawns work with various
-      athletes, filming on the ice, recording podcasts, etc…
+    content: >-
+      All I really knew was that I would need to be able to film on the ice,
+      record podcasts, take pictures, and be ready for any impromptu adventures
+      Shawn decided to go on to get extra content while he had me around. The
+      goal was for me to get as much content as possible to use as marketing
+      material for Perfect Skating. This included having clothing for the top of
+      the Swiss Alps, as well as the desert of California. 
+
+
+      Given I could only bring carry on luggage, I used my clothing to wrap
+      cameras, audio gear, and my drone to fit it all in a single backpack. I
+      put my skates, extra clothing, footwear, and computer in a small suitcase.
+      By the end of the trip I had mastered packing it all up given that at
+      almost every airport security line I had to pull it all out to have it
+      inspected.
   - flipped: false
     enabled: true
     overlap: false
