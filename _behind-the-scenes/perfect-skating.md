@@ -1,5 +1,5 @@
 ---
-title: NHL Off-Season
+title: NHL Off-Season 1
 layout: bts
 bannerImg: /images/uploads/Me 1.jpg
 sections:
