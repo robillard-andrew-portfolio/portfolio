@@ -47,11 +47,24 @@ sections:
     enabled: true
     overlap: false
     img: /images/uploads/Colorado.jpg
-    title: The Solution
+    title: 'Finally, I got on the ice!'
     type: image-text-split-middle
-    content: |-
-      Having grown up a hockey fan, I was quite excited to get a peek into the
-      NHL world, as well as the chance to travel around Europe!
+    content: >-
+      After a 26 hour journey starting in Ottawa including four trains, two
+      flights, and a bus through a tiny German town, I met up with Shawn in the
+      capital of Switzerland (Bern). I had been on the ice once or twice before
+      with NHL players, but not quite like this. In Bern I had full access. All
+      the guys Shawn was training knew I was coming and were pretty easy going
+      about me being around. 
+
+
+
+
+      The first session or two I was a little more cautious, but as I got to
+      know the athletes in a given city, I was able to get a bit more creative.
+      I have always been a pretty good skater myself, so the challenge of trying
+      to keep up and get interesting shots while skating at full speed was a lot
+      of fun for me.
   - title: The Result
     enabled: true
     type: video-embed
