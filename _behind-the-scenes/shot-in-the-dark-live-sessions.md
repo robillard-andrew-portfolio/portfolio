@@ -22,13 +22,6 @@ sections:
       considering the tight timeline.
     flipped: false
     overlap: false
-  - type: image-text-split-top-aligned
-    enabled: true
-    title: Shooting in the round
-    img: /images/uploads/group.jpg
-    flipped: false
-    overlap: false
-    content: Content
   - type: image-text-split-middle
     enabled: true
     title: Let's shoot eight bands in one day...
@@ -48,4 +41,11 @@ sections:
     img: /images/uploads/group.jpg
     flipped: false
     overlap: false
+  - type: image-text-split-top-aligned
+    enabled: true
+    title: Shooting in the round
+    img: /images/uploads/group.jpg
+    flipped: false
+    overlap: false
+    content: Content
 ---
