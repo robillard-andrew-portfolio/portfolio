@@ -26,23 +26,23 @@ sections:
     enabled: true
     overlap: false
     img: /images/uploads/shwan.jpg
-    title: The Challenge
+    title: How do you prep when you have no details?
     type: image-text-split-middle
     content: >-
       All I really knew was that I would need to be able to film on the ice,
       record podcasts, take pictures, and be ready for any impromptu adventures
-      Shawn decided to go on to get extra content while he had me around. The
-      goal was for me to get as much content as possible to use as marketing
-      material for Perfect Skating. This included having clothing for the top of
-      the Swiss Alps, as well as the desert of California. 
+      Shawn decided to go on to get extra content while he had me around. Those
+      adventures, as far as I knew from what he had floated, ranged from
+      altitude training in the Swiss Alps and Colorado Rockies, to the desert of
+      California or fishing in Wisconsin.
 
 
       Given I could only bring carry on luggage, I used my clothing to wrap
-      cameras, audio gear, and my drone to fit it all in a single backpack. I
-      put my skates, extra clothing, footwear, and computer in a small suitcase.
-      By the end of the trip I had mastered packing it all up given that at
-      almost every airport security line I had to pull it all out to have it
-      inspected.
+      cameras, drone, audio gear, and fit it all in a single backpack. I put my
+      skates, extra clothing, footwear, and computer in a small suitcase. By the
+      end of the trip I had mastered packing it all up given that at almost
+      every airport security line I had to pull it all out to have it inspected.
+      Apparently you can actually bring sharp skates in your carry on, who knew?
   - flipped: false
     enabled: true
     overlap: false
