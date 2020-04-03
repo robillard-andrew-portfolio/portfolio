@@ -121,6 +121,7 @@ collections:
               - label: Content Overlap
                 name: overlap
                 widget: boolean
+                default: false
               - label: Image
                 name: img
                 widget: image
@@ -351,9 +352,11 @@ collections:
               - label: Content Flip
                 name: flipped
                 widget: boolean
+                default: false
               - label: Content Overlap
                 name: overlap
                 widget: boolean
+                default: false
               - label: Image
                 name: img
                 widget: image
@@ -375,9 +378,11 @@ collections:
               - label: Content Flip
                 name: flipped
                 widget: boolean
+                default: false
               - label: Content Overlap
                 name: overlap
                 widget: boolean
+                default: false
               - label: Image
                 name: img
                 widget: image
@@ -399,9 +404,11 @@ collections:
               - label: Content Flip
                 name: flipped
                 widget: boolean
+                default: false
               - label: Content Overlap
                 name: overlap
                 widget: boolean
+                default: false
               - label: Image
                 name: img
                 widget: image
