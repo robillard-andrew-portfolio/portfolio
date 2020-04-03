@@ -38,4 +38,21 @@ sections:
       We made the decision not to try and hide lights, or other camera
       operators. We wanted everyone and everything involved to be part of the
       final video where possible.
+  - type: image-text-split-middle
+    enabled: true
+    title: Working on a budget
+    flipped: true
+    overlap: false
+    content: >-
+      Each band paid a small fee to participate, but that was the only funding
+      we were working with. There wasn't a huge rental budget and so we shot on
+      the cameras we already owned. I shot the main angle with a Canon c100, and
+      the two other operators were using a GH4 and GH5. 
+
+
+      For lighting we were able to borrow from a few people and ended up with
+      three Aputure 120D's, an Aputure 300D, and two small LED panels. We had a
+      full audio team as well but I won't pretend to know enough about what they
+      were doing to explain it.
+    img: /images/uploads/jeff.jpg
 ---
