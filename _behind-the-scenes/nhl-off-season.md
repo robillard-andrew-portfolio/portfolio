@@ -22,7 +22,7 @@ sections:
     enabled: true
     flipped: true
     overlap: false
-    title: How to prep with no itinerary
+    title: Prepping for the unknown
     img: /images/uploads/andrew.jpg
     content: >-
       All I really knew was that I would need to be able to film on the ice,
