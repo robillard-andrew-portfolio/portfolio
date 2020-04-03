@@ -51,9 +51,7 @@ sections:
       capital of Switzerland (Bern). I had been on the ice once or twice before
       with NHL players, but not quite like this. In Bern I had full access. All
       the guys Shawn was training knew I was coming and were pretty easy going
-      about me being around. 
-
-
+      about me being around.
 
 
       The first session or two I was a little more cautious, but as I got to
