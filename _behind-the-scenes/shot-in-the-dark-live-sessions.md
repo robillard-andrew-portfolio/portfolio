@@ -17,8 +17,7 @@ sections:
 
       We had a venue booked for the day and had eight different bands each
       perform a single song three times, so they could choose their best
-      performance for us to edit. It was a long day but it went fairly well
-      considering the tight timeline.
+      performance for us to edit.
     img: /images/uploads/controlroom.jpg
     flipped: true
     overlap: false
@@ -30,9 +29,10 @@ sections:
     overlap: false
     content: >-
       The idea behind Shot in the Dark is to have the bands each play but then
-      also hang out to watch each others performances. We setup in the middle of
-      a large venue floor and the audience stood around the entire performance
-      area. 
+      also hang out to watch each others performances. So the audience is mainly
+      made up of the other bands and crew. The venue we had partnered with was a
+      live music venue, but we setup on the floor instead of the stage, so that
+      we could shoot from all sides. 
 
 
       We made the decision not to try and hide lights, or other camera
