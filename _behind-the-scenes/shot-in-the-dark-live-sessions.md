@@ -64,4 +64,17 @@ sections:
   - type: video-grid
     enabled: true
     title: Here are a few of the performances
+    videos:
+      - link: 'https://player.vimeo.com/video/403845664'
+        title: Bella Cat
+        mWidth: 1
+        lWidth: 1-3
+      - link: 'https://player.vimeo.com/video/403845857'
+        title: Alexandra Sullivan
+        mWidth: 1
+        lWidth: 1-3
+      - title: Edra Silva
+        link: 'https://player.vimeo.com/video/403845990'
+        mWidth: 1
+        lWidth: 1-3
 ---
