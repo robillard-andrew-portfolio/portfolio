@@ -14,4 +14,11 @@ sections:
     enabled: true
     title: Cool title
     video: /link/
+  - type: image-text-split-top-offset
+    enabled: true
+    flipped: false
+    overlap: false
+    title: What up
+    img: /images/uploads/Pedal Easy.jpg
+    content: adadasd
 ---
