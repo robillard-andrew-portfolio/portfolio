@@ -17,7 +17,7 @@ sections:
       jumping between trains and flights to get from Ottawa, ON to Bern,
       Switzerland.
     overlap: false
-    flipped: true
+    flipped: false
   - flipped: true
     enabled: true
     overlap: false
