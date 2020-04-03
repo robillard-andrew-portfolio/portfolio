@@ -6,7 +6,7 @@ sections:
   - flipped: true
     enabled: true
     overlap: false
-    img: /images/uploads/bern-1.jpg
+    img: /images/uploads/andrew.jpg
     title: What made this trip unique was...
     type: image-text-split-top-aligned
     content: >-
@@ -46,7 +46,7 @@ sections:
   - flipped: false
     enabled: true
     overlap: false
-    img: /images/uploads/colorado1.jpg
+    img: /images/uploads/bern-1.jpg
     title: 'Finally, I got on the ice!'
     type: image-text-split-middle
     content: >-
