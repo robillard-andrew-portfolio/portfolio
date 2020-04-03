@@ -61,4 +61,7 @@ sections:
       The goal is to do another session in the future, and now that my gear has
       been significantly upgraded, I am excited to see where we can take it!
     img: /images/uploads/jeff.jpg
+  - type: video-grid
+    enabled: true
+    title: Here are a few of the performances
 ---
