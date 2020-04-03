@@ -46,7 +46,7 @@ sections:
   - flipped: false
     enabled: true
     overlap: false
-    img: /images/uploads/Colorado.jpg
+    img: /images/uploads/colorado1.jpg
     title: 'Finally, I got on the ice!'
     type: image-text-split-middle
     content: >-
