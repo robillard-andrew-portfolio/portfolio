@@ -16,7 +16,7 @@ sections:
       to document his travels and work as he trained players in Switzerland,
       Sweden, and then across the United States. It was a bit of a last minute
       decision and the itinerary of the trip was still being worked out as I was
-      hoping between trains and flights to get from Ottawa, ON to Bern,
+      hopping between trains and flights to get from Ottawa, ON to Bern,
       Switzerland. 
 
 
