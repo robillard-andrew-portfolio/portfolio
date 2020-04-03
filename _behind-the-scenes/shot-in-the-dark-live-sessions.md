@@ -12,7 +12,9 @@ sections:
       brought on board to over see the look of the project. I operated the main
       camera, was in charge of lighting, and oversaw the post-production process
       working along side Jeff Watkins, who was one of the producers, camera
-      operators, and the main editor. 
+      operators, and the main editor. Jeff along side Dean Watson (the guy who
+      started the whole thing), worked magic in the background to pull
+      everything together. 
 
 
       We had a venue booked for the day and had eight different bands each
@@ -50,9 +52,13 @@ sections:
       the two other operators were using a GH4 and GH5. 
 
 
-      For lighting we were able to borrow from a few people and ended up with
+      For lighting we were able to borrow from a few friends and ended up with
       three Aputure 120D's, an Aputure 300D, and two small LED panels. We had a
       full audio team as well but I won't pretend to know enough about what they
       were doing to explain it.
+
+
+      The goal is to do another session in the future, and now that my gear has
+      been significantly upgraded, I am excited to see where we can take it!
     img: /images/uploads/jeff.jpg
 ---
