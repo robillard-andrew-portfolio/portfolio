@@ -3,12 +3,10 @@ title: NHL Off-Season
 layout: bts
 bannerImg: /images/uploads/Me 1.jpg
 sections:
-  - flipped: true
+  - type: image-text-split-middle
     enabled: true
-    overlap: false
-    img: /images/uploads/andrew.jpg
     title: What made this trip unique was...
-    type: image-text-split-top-aligned
+    img: /images/uploads/andrew.jpg
     content: >-
       In August of 2017 I was the Creative Director of Perfect Skating, a hockey
       development company that works with NHL players from around the world.
@@ -18,6 +16,8 @@ sections:
       decision and the itinerary of the trip was still being worked out as I was
       jumping between trains and flights to get from Ottawa, ON to Bern,
       Switzerland.
+    overlap: false
+    flipped: false
   - img: /images/uploads/Swiss.jpg
     enabled: true
     title: The Trip
