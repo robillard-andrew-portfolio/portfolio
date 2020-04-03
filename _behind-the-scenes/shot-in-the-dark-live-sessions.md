@@ -20,6 +20,13 @@ sections:
       perform a single song three times, so they could choose their best
       performance for us to edit. It was a long day but it went fairly well
       considering the tight timeline.
+    flipped: true
+    overlap: false
+  - type: image-text-split-top-aligned
+    enabled: true
+    title: Shooting in the round
+    img: /images/uploads/group.jpg
     flipped: false
     overlap: false
+    content: Content
 ---
