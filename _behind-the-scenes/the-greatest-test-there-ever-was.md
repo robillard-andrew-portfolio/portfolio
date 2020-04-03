@@ -21,4 +21,11 @@ sections:
     title: What up
     img: /images/uploads/Pedal Easy.jpg
     content: adadasd
+  - type: image-text-split-middle
+    enabled: true
+    flipped: false
+    overlap: false
+    title: What up
+    img: /images/uploads/Micah.jpg
+    content: Hello there
 ---
