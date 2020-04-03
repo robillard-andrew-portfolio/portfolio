@@ -18,10 +18,6 @@ sections:
       Switzerland.
     overlap: false
     flipped: false
-  - img: /images/uploads/Swiss.jpg
-    enabled: true
-    title: The Trip
-    type: img-banner
   - flipped: true
     enabled: true
     overlap: false
@@ -65,6 +61,10 @@ sections:
       I have always been a pretty good skater myself, so the challenge of trying
       to keep up and get interesting shots while skating at full speed was a lot
       of fun for me.
+  - img: /images/uploads/Swiss.jpg
+    enabled: true
+    title: The Trip
+    type: img-banner
   - title: The Result
     enabled: true
     type: video-embed
