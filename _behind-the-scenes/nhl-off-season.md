@@ -98,5 +98,5 @@ sections:
   - type: video-embed
     enabled: true
     title: NHL Off-Season
-    video: 'https://vimeo.com/403338087'
+    video: 'https://player.vimeo.com/video/403338087'
 ---
