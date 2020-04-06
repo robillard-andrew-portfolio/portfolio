@@ -22,10 +22,18 @@ sections:
 
 
       It was an incredibly delicate project to be a part of, and it was
-      devastating to hear what these families had gone through. I felt
-      incredibly honoured to sit with them, listening to their elders talk about
-      living through the residential school era, and couldn't believe the
-      strength and humour with which they handled the intensity of the week.
+      devastating to hear what these families had gone through. It was a
+      different approach than anything I had worked on before because the focus
+      was not on how good we could make it look, but instead was on making sure
+      the families felt comfortable telling their stories. This meant filming
+      when they were comfortable, including whatever imagery, blankets, photos,
+      masks, etc... that they felt were important to representing their missing
+      loved one. 
+
+
+      I felt incredibly honoured to sit with them, listening to their elders
+      talk about living through the residential school era, and couldn't believe
+      the strength and humour with which they handled the intensity of the week.
   - type: image-text-split-middle
     enabled: true
     flipped: true
@@ -33,6 +41,30 @@ sections:
     title: Creating PSA's
     img: /images/uploads/psa.jpg
     content: >-
-      After the digital story telling project was complete, I went on to do
-      other work with NWAC.
+      After the digital story telling project was complete, we went on to do
+      other work with NWAC. 
+
+
+      Human trafficking disproportionately effects Indigenous communities, and
+      so NWAC was looking to create a variety of PSA's on the issue. We worked
+      along side young Indigenous women working and volunteering for NWAC to
+      come up with effective ways to deliver that message, all on a pretty small
+      budget. 
+
+
+      While I wish I was still able to work with the organization, they
+      understandably put a priority on hiring Indigenous videographers whenever
+      possible. At the time we first signed our contract with them, they were
+      unable to find a local Indigenous company, but once our original 2 year
+      contract expired, they were able to find a local company to take over.
+
+
+
+
+      They continue to do important work which you can see at [www.nwac.ca
+      ](https://www.nwac.ca/)
+  - type: video-grid
+    enabled: true
+    title: NWAC PSA's
+    videos: []
 ---
