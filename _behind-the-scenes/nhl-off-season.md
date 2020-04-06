@@ -57,10 +57,46 @@ sections:
       know the athletes in a given city, I was able to get a bit more creative.
       I have always been a pretty good skater myself, so the challenge of trying
       to keep up and get interesting shots while skating at full speed was a lot
-      of fun for me.
+      of fun for me. I even got to pick up a stick and play around every now and
+      then which was pretty surreal.
     img: /images/uploads/bern-1.jpg
   - type: img-banner
     enabled: true
     title: Swiss Alps
     img: /images/uploads/Swiss.jpg
+  - type: image-text-split-middle
+    enabled: true
+    flipped: true
+    overlap: false
+    img: /images/uploads/shwan.jpg
+    content: >-
+      Typically, we'd meet up with the athletes in the morning, do a quick
+      workout in the gym and then hit the ice for a few hours. Then Shawn and I
+      would head out to film more content based on the location we were in. 
+
+
+      In Switzerland it was attitude training in the Alps. In Sweden, Viktor
+      Arvidsson too us to his parents cottage home for a traditional Swedish
+      meat and potatoes meal. In Los Angelas, we met up with Kevin Miller and
+      did a quick podcast at a cryotherapy studio. Colorado was stair training
+      at the Red Rock Amphitheater and in Wisconsin Craig Smith took us out
+      fishing to record a podcast on his boat. 
+
+
+      I got destroyed in Ping Pong by Roman Josi, got to fly my drone at the Top
+      of Europe where they shot a James Bond movie, and ate a six course meal in
+      a remote Swiss mountain village that was based entirely on the mushrooms
+      they foraged for that morning. I never had a chance to adjust to a given
+      time zone and probably never got more than 4 hours of sleep, but it was
+      worth it. 
+
+
+      I hope to create a mini doc of the trip from all the footage I have soon,
+      but in the meantime you can checkout this quick video that focuses on a
+      lot of the work Shawn was doing.
+    title: Always On The Move
+  - type: video-embed
+    enabled: true
+    title: NHL Off-Season
+    video: 'https://vimeo.com/403338087'
 ---
