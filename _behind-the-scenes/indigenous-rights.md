@@ -125,7 +125,7 @@ sections:
       ](https://www.nwac.ca/)
   - type: video-grid
     enabled: true
-    title: NWAC PSA's
+    title: A Few Of The Results
     videos:
       - link: 'https://player.vimeo.com/video/404754846'
         title: 'NWAC PSA Example #1'
