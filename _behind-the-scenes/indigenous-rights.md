@@ -10,14 +10,15 @@ sections:
     title: Digital Storytelling
     img: /images/uploads/storytelling.jpg
     content: >-
-      In 2013 I had the honour of working with the Native Women's Association of
-      Canada. They were looking to produce a series of videos telling the
-      stories of Indigenous families who had a missing or murdered relative. The
-      job required bringing all of our filming and editing gear to a hotel in
-      Ottawa, where families from around Canada were staying for the duration of
-      the project. Each day we would meet with families and elders, and when a
-      family was feeling comfortable, they would sit down with us and tell their
-      story.
+      In 2013, while still in the early days of the production company I
+      co-founded (Stuffed Motion), we had the honour of working with the Native
+      Women's Association of Canada. They were looking to produce a series of
+      videos telling the stories of Indigenous families who had a missing or
+      murdered relative. The job required bringing all of our filming and
+      editing gear to a hotel in Ottawa, where families from around Canada were
+      staying for the duration of the project. Each day we would meet with
+      families and elders, and when a family was feeling comfortable, they would
+      sit down with us and tell their story.
 
 
       It was an incredibly delicate project to be a part of, and it was
@@ -25,4 +26,13 @@ sections:
       incredibly honoured to sit with them, listening to their elders talk about
       living through the residential school era, and couldn't believe the
       strength and humour with which they handled the intensity of the week.
+  - type: image-text-split-middle
+    enabled: true
+    flipped: true
+    overlap: false
+    title: Creating PSA's
+    img: /images/uploads/psa.jpg
+    content: >-
+      After the digital story telling project was complete, I went on to do
+      other work with NWAC.
 ---
