@@ -28,7 +28,8 @@ sections:
       the families felt comfortable telling their stories. This meant filming
       when they were comfortable, including whatever imagery, blankets, photos,
       masks, etc... that they felt were important to representing their missing
-      loved one. 
+      loved one. They sat next to us as we edited their stories, scanning in old
+      photos, making sure we did their story justice. 
 
 
       I felt incredibly honoured to sit with them, listening to their elders
