@@ -1,5 +1,5 @@
 ---
-title: NWAC - Ending Sex Trafficking
+title: Indigenous Rights
 layout: bts
 bannerImg: /images/uploads/banner.jpg
 ---
