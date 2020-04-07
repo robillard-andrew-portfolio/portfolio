@@ -1,5 +1,5 @@
 ---
-title: Indigenous Rights
+title: NWAC Digital Storytelling
 layout: bts
 bannerImg: /images/uploads/banner.jpg
 sections:
