@@ -54,19 +54,18 @@ sections:
 
 
       It was an incredibly delicate project to be a part of, and it was
-      devastating to hear what these families had gone through. It was a
-      different approach than anything I had worked on before because the focus
-      was not on how good we could make it look, but instead was on making sure
-      the families felt comfortable telling their stories. This meant filming
-      when they were comfortable, including whatever imagery, blankets, photos,
-      masks, etc... that they felt were important to representing their missing
-      loved one. They sat next to us as we edited their stories, scanning in old
-      photos, making sure we did their story justice. 
+      devastating to hear what these families had gone through. Normally, the
+      last thing you want is a client over your shoulder while you edit, but in
+      this case, that was the whole point. It was the families story to tell and
+      so they sat with us and we worked on it together. As we worked through the
+      edit the families would tell us more about their loved ones. We'd scan in
+      old photos and take pictures of cherished items to include in the video. 
 
 
-      I felt incredibly honoured to sit with them, listening to their elders
-      talk about living through the residential school era, and couldn't believe
-      the strength and humour with which they handled the intensity of the week.
+      I felt incredibly honoured to sit with them each day, smudging and
+      listening to their elders talk about living through the residential school
+      era. You wouldn't believe the strength and humour with which they handled
+      the intensity of the week.
   - type: image-text-split-middle
     enabled: false
     flipped: true
