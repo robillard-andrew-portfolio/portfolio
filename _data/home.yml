@@ -1,6 +1,6 @@
 reel:
   desc: Demo Reel 2020
-  video: 'https://player.vimeo.com/video/405469933'
+  video: https://player.vimeo.com/video/408507078
 banner:
   img: /images/uploads/bg-still.jpg
   title: Make Video Production Simple
@@ -8,8 +8,8 @@ banner:
   btn:
     text: Learn More
     style: banner-btn-orange-outline
-    url: '#contact'
-  video: 'https://player.vimeo.com/video/403377484'
+    url: "#contact"
+  video: https://player.vimeo.com/video/403377484
 about:
   content: >-
     I am a cinematographer, editor, and musician from Ottawa, Canada. I’ve been
@@ -17,9 +17,7 @@ about:
     doing so.
 
 
-    I consider myself pretty easy going, and I think that making videos should
-    be enjoyable for everyone involved. If that makes sense to you then let’s
-    talk about your ideas!
+    I consider myself pretty easy going, and I think that making videos should be enjoyable for everyone involved. If that makes sense to you then let’s talk about your ideas!
   img: /images/uploads/about-me.jpg
   title: About
   overlap: false
@@ -31,9 +29,7 @@ contact:
 
     \
 
-    **If budget is an issue during these uncertain times,** please don't
-    hesitate to let me know as I am happy to find a solution that works for both
-    of us.
+    **If budget is an issue during these uncertain times,** please don't hesitate to let me know as I am happy to find a solution that works for both of us.
   form:
     email: andrewrobillarddp@gmail.com
     fields:
