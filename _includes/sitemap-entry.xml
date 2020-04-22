@@ -1,0 +1,9 @@
+<url>
+  <loc>https://andrewrobillard.ca{{site.baseurl}}{{include.entry.url}}</loc>
+  {% if include.entry.changefreq %}
+    <changefreq>{{include.entry.changefreq}}</changefreq>
+  {% endif %}
+  {% if include.entry.priority %}
+    <priority>0.5</priority>
+  {% endif %}
+</url>

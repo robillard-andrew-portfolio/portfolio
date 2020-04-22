@@ -1,0 +1,15 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/shcemas/sitemap/0.9">
+  {% for page in site.pages %}
+    {% if page.layout %}
+      {% include sitemap-entry.xml entry=page %}
+    {% endif %}
+  {% endfor %}
+  {% for page in site.behind-the-scenes %}
+    {% if page.layout %}
+      {% include sitemap-entry.xml entry=page %}
+    {% endif %}
+  {% endfor %}
+</urlset>
