@@ -2,37 +2,37 @@
 layout: default
 ---
 {% include patterns/banners/vimeo-banner.liquid banner=site.data.home.banner reel=site.data.home.reel.video %}
-<section id="work" class="push-2">
+<section class="push-2" id="work">
   <h2 class="hidden">Work</h2>
   <div class="grid">
     {% assign work_in_order = site.work | sort: "order" %}
     {% for video in work_in_order %}
-    {% if video.active == true %}
-    <div class="unit [ xs-1 m-1-2 ] video-preview">
-      <a class="block embed embed-2by1 video-player-link" href="#video-player" data-video-link="{{ video.vimeo }}" aria-label="Select to play the video created for {{ video.title }}">
-        <img class="embed-item" src="{{ video.thumbnail }}" alt="">
-        <h3 class="line-highlight absolute pin-c push-0 text-fff text-center text-upper">{{ video.title }}</h3>
-      </a>
-    </div>
-    {% endif %}
+      {% if video.active == true %}
+        <div class="unit [ xs-1 m-1-2 ] video-preview">
+          <a class="block embed embed-2by1 video-player-link" href="#video-player" data-video-link="{{ video.vimeo }}" aria-label="Select to play the video created for {{ video.title }}">
+            <img class="embed-item" src="{{ video.thumbnail }}" alt="Thumbnail of {{ video.title }} video.">
+            <h3 class="line-highlight absolute pin-c push-0 text-fff text-center text-upper">{{ video.title }}</h3>
+          </a>
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
   <div class="video-player-wrap" tabindex="0">
-    <iframe id="video-player" class="video-player" src="" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <a id="video-closer" class="icon-link inline-block island pin-tr" href="#">
+    <iframe allowfullscreen class="video-player" frameborder="0" id="video-player" mozallowfullscreen src="" webkitallowfullscreen></iframe>
+    <a class="icon-link inline-block island pin-tr" href="#" id="video-closer">
       <i class="icon i-3-4">
-        <svg><use xlink:href="images/icons.svg#close" /></svg>
+        <svg><use xlink:href="images/icons.svg#close"/></svg>
       </i>
       <span class="icon-label hidden">Close video player.</span>
     </a>
   </div>
 </section>
-<section id="about" class="push-2" tabindex="0">
+<section class="push-2" id="about" tabindex="0">
   <div class="wrapper pad-t-2 pad-b-2">
     <div class="grid grid-middle island-1-2 overlap">
       <div class="unit [ xs-1 m-1-2 ] island-1-2{% if site.data.home.about.overlap == true %} overlap-img{% endif %}">
         <div class="embed embed-16by9 bg-grey-dark">
-          <img class="embed-item" src="{{ site.data.home.about.img }}" alt="">
+          <img class="embed-item" src="{{ site.data.home.about.img }}" alt="{% if site.data.home.about.alt %}{{ site.data.home.about.alt }}{% else %}Andrew Robillard, and Ottawa, ON based cinematographer.{% endif %}">
         </div>
       </div>
       <div class="unit [ xs-1 m-1-2 ] island-1-2{% if site.data.home.about.overlap == true %} overlap-text{% endif %}">
@@ -44,7 +44,7 @@ layout: default
     </div>
   </div>
 </section>
-<section id="contact" class="push-2" tabindex="0">
+<section class="push-2" id="contact" tabindex="0">
   <div class="max-length pad-t-2 pad-b-2">
     <div class="island">
       <h2>{{ site.data.home.contact.title }}</h2>

@@ -125,6 +125,9 @@ collections:
               - label: Image
                 name: img
                 widget: image
+              - label: Image Alt Text
+                name: alt
+                widget: string
               - label: Content
                 name: content
                 widget: markdown
@@ -340,6 +343,9 @@ collections:
               - label: Image
                 name: img
                 widget: image
+              - label: Image Alt Text
+                name: alt
+                widget: string
           - label: Image Text Split (Top Aligned)
             name: image-text-split-top-aligned
             widget: object
@@ -363,6 +369,9 @@ collections:
               - label: Image
                 name: img
                 widget: image
+              - label: Image Alt Text
+                name: alt
+                widget: string
               - label: Content
                 name: content
                 widget: markdown
@@ -389,6 +398,9 @@ collections:
               - label: Image
                 name: img
                 widget: image
+              - label: Image Alt Text
+                name: alt
+                widget: string
               - label: Content
                 name: content
                 widget: markdown
@@ -415,6 +427,9 @@ collections:
               - label: Image
                 name: img
                 widget: image
+              - label: Image Alt Text
+                name: alt
+                widget: string
               - label: Content
                 name: content
                 widget: markdown
