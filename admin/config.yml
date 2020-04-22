@@ -127,6 +127,7 @@ collections:
                 widget: image
               - label: Image Alt Text
                 name: alt
+                required: false
                 widget: string
               - label: Content
                 name: content
@@ -345,6 +346,7 @@ collections:
                 widget: image
               - label: Image Alt Text
                 name: alt
+                required: false
                 widget: string
           - label: Image Text Split (Top Aligned)
             name: image-text-split-top-aligned
@@ -371,6 +373,7 @@ collections:
                 widget: image
               - label: Image Alt Text
                 name: alt
+                required: false
                 widget: string
               - label: Content
                 name: content
@@ -400,6 +403,7 @@ collections:
                 widget: image
               - label: Image Alt Text
                 name: alt
+                required: false
                 widget: string
               - label: Content
                 name: content
@@ -429,6 +433,7 @@ collections:
                 widget: image
               - label: Image Alt Text
                 name: alt
+                required: false
                 widget: string
               - label: Content
                 name: content
