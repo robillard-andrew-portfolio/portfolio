@@ -311,6 +311,9 @@ collections:
       - label: Title
         name: title
         widget: string
+      - label: Meta Description
+        name: description
+        widget: string
       - label: Layout
         name: layout
         default: bts
