@@ -4,9 +4,9 @@ reel:
 banner:
   img: /images/uploads/bg-still.jpg
   title: Purpose Driven Video Production
-  byline: Talk to me about remote video production during the Covid-19 crisis!
+  byline: ""
   btn:
-    text: Learn More
+    text: ""
     style: banner-btn-orange-outline
     url: "#contact"
   video: https://player.vimeo.com/video/403377484
