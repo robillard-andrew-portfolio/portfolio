@@ -7,7 +7,7 @@ banner:
   byline: ""
   btn:
     text: ""
-    style: banner-btn-orange-outline
+    style: null
     url: "#contact"
   video: https://player.vimeo.com/video/403377484
 about:
