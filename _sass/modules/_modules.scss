@@ -1155,7 +1155,7 @@ a:focus, [tabindex="0"]:focus {
   padding: .5em .75em;
   position: absolute;
   top: -10em;
-  z-index: 10000; /* To make sure they're always on top */
+  z-index: 100000000; /* To make sure they're always on top */
   background-color: #000;
   border: 0;
   color: #fff;
