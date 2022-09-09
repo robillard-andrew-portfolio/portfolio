@@ -2,17 +2,22 @@ var dropTop = document.querySelector('.masthead').offsetHeight;
 
 // Include Video banner on large screen
 
-function minMediaQuery(minM) {
-  if (minM.matches) { // If media query matches
-    var vimeoBanner = document.querySelector('.vimeo-banner');
-    if (vimeoBanner) {
-      var vimeoBannerLink = document.querySelector('.vimeo-banner').getAttribute('data-video-link');
-      var vimeoBannerContent = vimeoBanner.innerHTML;
-      var vimeoBannerNew = '<iframe id="vimeo_player" src="' + vimeoBannerLink + '?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player&background=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen tabindex="-1  "></iframe>' + vimeoBannerContent;
-      vimeoBanner.innerHTML = vimeoBannerNew;
-    }
-  }
-}
+// function minMediaQuery(minM) {
+//   if (minM.matches) { // If media query matches
+//     var vimeoBanner = document.querySelector('.vimeo-banner');
+//     const vimeoPlayer = document.getElementById('vimeo_player');
+//     if (vimeoBanner) {
+//       var vimeoBannerLink = document.querySelector('.vimeo-banner').getAttribute('data-video-link');
+//       vimeoPlayer.setAttribute('src', vimeoBannerLink + '?title=0&byline=0&portrait=0&color=d01e2f&autoplay=1&loop=1&player_id=vimeo_player&background=1');
+//       setTimeout(() => {
+//         vimeoPlayer.setAttribute('src', vimeoBannerLink + '?title=0&byline=0&portrait=0&color=d01e2f&autoplay=1&loop=1&player_id=vimeo_player&background=1');
+//       }, 5000)
+//       // var vimeoBannerContent = vimeoBanner.innerHTML;
+//       // var vimeoBannerNew = '<iframe id="vimeo_player" src="' + vimeoBannerLink + '?title=0&byline=0&portrait=0&color=d01e2f&autoplay=1&loop=1&player_id=vimeo_player&background=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen tabindex="-1  "></iframe>' + vimeoBannerContent;
+//       // vimeoBanner.innerHTML = vimeoBannerNew;
+//     }
+//   }
+// }
 
 var minM = window.matchMedia("(min-width: 38em)")
 minMediaQuery(minM) // Call listener function at run time
@@ -143,10 +148,10 @@ function vidClose(e) {
   var vimEmbed = document.getElementById('vimeo_player');
   e.preventDefault();
   vidWrap.style.opacity = '0';
-  if (vimEmbed) {
-    vimEmbed.setAttribute('src', vimLink + '?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player&background=1');
-    console.log('running');
-  }
+  // if (vimEmbed) {
+  //   vimEmbed.setAttribute('src', vimLink + '?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1&loop=1&player_id=vimeo_player&background=1');
+  //   console.log('running');
+  // }
   setTimeout(function() {
     vidWrap.removeAttribute('style');
     vidPlayer.setAttribute('src', '');
