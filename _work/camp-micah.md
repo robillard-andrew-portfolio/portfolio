@@ -1,7 +1,7 @@
 ---
 title: Camp Micah
-order: '2'
-vimeo: 'https://player.vimeo.com/video/388744755'
+order: "2"
+vimeo: https://youtu.be/OOaHD7_XGNE?si=rfHNKpeltHXzWKi8
 thumbnail: /images/uploads/camp-micah.jpg
 active: true
 ---
