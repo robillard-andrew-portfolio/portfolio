@@ -1,5 +1,6 @@
 ---
 title: NHL Off-Season
+description: nhl behind the scenes
 layout: bts
 bannerImg: /images/uploads/Me 1.jpg
 sections:
@@ -7,15 +8,14 @@ sections:
     enabled: true
     title: Carry On Luggage Only
     img: /images/uploads/Josi.jpg
-    content: >-
-      In August of 2017 I was the Creative Director of Perfect Skating, a hockey
-      development company that works with NHL players from around the world.
-      Their founder, Shawn Allard, asked me to meet up with him in Switzerland
-      to document his travels and work as he trained players in Switzerland,
-      Sweden, and then across the United States. It was a bit of a last minute
-      decision and the itinerary of the trip was still being worked out as I was
-      jumping between trains and flights to get from Ottawa, ON to Bern,
-      Switzerland.
+    content: In August of 2017 I was the Creative Director of Perfect Skating, a
+      hockey development company that works with NHL players from around the
+      world. Their founder, Shawn Allard, asked me to meet up with him in
+      Switzerland to document his travels and work as he trained players in
+      Switzerland, Sweden, and then across the United States. It was a bit of a
+      last minute decision and the itinerary of the trip was still being worked
+      out as I was jumping between trains and flights to get from Ottawa, ON to
+      Bern, Switzerland.
     flipped: false
     overlap: false
   - type: image-text-split-middle
@@ -33,15 +33,10 @@ sections:
       California or fishing in Wisconsin.
 
 
-      Given I could only bring carry on luggage, I used my clothing to wrap
-      cameras, drone, audio gear, and fit it all in a single backpack. I put my
-      skates, extra clothing, footwear, and computer in a small suitcase. By the
-      end of the trip I had mastered packing it all up given that at almost
-      every airport security line I had to pull it all out to have it inspected.
-      Apparently you can actually bring sharp skates in your carry on, who knew?
+      Given I could only bring carry on luggage, I used my clothing to wrap cameras, drone, audio gear, and fit it all in a single backpack. I put my skates, extra clothing, footwear, and computer in a small suitcase. By the end of the trip I had mastered packing it all up given that at almost every airport security line I had to pull it all out to have it inspected. Apparently you can actually bring sharp skates in your carry on, who knew?
   - type: image-text-split-middle
     enabled: true
-    title: 'Finally, I got on the ice'
+    title: Finally, I got on the ice
     flipped: false
     overlap: false
     content: >-
@@ -53,12 +48,7 @@ sections:
       about me being around.
 
 
-      The first session or two I was a little more cautious, but as I got to
-      know the athletes in a given city, I was able to get a bit more creative.
-      I have always been a pretty good skater myself, so the challenge of trying
-      to keep up and get interesting shots while skating at full speed was a lot
-      of fun for me. I even got to pick up a stick and play around every now and
-      then which was pretty surreal.
+      The first session or two I was a little more cautious, but as I got to know the athletes in a given city, I was able to get a bit more creative. I have always been a pretty good skater myself, so the challenge of trying to keep up and get interesting shots while skating at full speed was a lot of fun for me. I even got to pick up a stick and play around every now and then which was pretty surreal.
     img: /images/uploads/bern-1.jpg
   - type: img-banner
     enabled: true
@@ -75,28 +65,16 @@ sections:
       would head out to film more content based on the location we were in. 
 
 
-      In Switzerland it was attitude training in the Alps. In Sweden, Viktor
-      Arvidsson too us to his parents cottage home for a traditional Swedish
-      meat and potatoes meal. In Los Angelas, we met up with Kevin Miller and
-      did a quick podcast at a cryotherapy studio. Colorado was stair training
-      at the Red Rock Amphitheater and in Wisconsin Craig Smith took us out
-      fishing to record a podcast on his boat. 
+      In Switzerland it was attitude training in the Alps. In Sweden, Viktor Arvidsson took us to his parents cottage home for a traditional Swedish meat and potatoes meal. In Los Angelas, we met up with Kevin Miller and did a quick podcast at a cryotherapy studio. Colorado was stair training at the Red Rock Amphitheater and in Wisconsin Craig Smith took us out fishing to record a podcast on his boat. 
 
 
-      I got destroyed in Ping Pong by Roman Josi, got to fly my drone at the Top
-      of Europe where they shot a James Bond movie, and ate a six course meal in
-      a remote Swiss mountain village that was based entirely on the mushrooms
-      they foraged for that morning. I never had a chance to adjust to a given
-      time zone and probably never got more than 4 hours of sleep, but it was
-      worth it. 
+      I got destroyed in Ping Pong by Roman Josi, got to fly my drone at the Top of Europe where they shot a James Bond movie, and ate a six course meal in a remote Swiss mountain village that was based entirely on the mushrooms they foraged for that morning. I never had a chance to adjust to a given time zone and probably never got more than 4 hours of sleep, but it was worth it. 
 
 
-      I hope to create a mini doc of the trip from all the footage I have soon,
-      but in the meantime you can checkout this quick video that focuses on a
-      lot of the work Shawn was doing.
+      I hope to create a mini doc of the trip from all the footage I have soon, but in the meantime you can checkout this quick video that focuses on a lot of the work Shawn was doing.
     title: Always On The Move
   - type: video-embed
     enabled: true
     title: NHL Off-Season
-    video: 'https://player.vimeo.com/video/403338087'
+    video: https://player.vimeo.com/video/403338087
 ---
