@@ -12,24 +12,18 @@ banner:
   video: https://player.vimeo.com/video/403377484
 about:
   content: >-
-    I am a cinematographer, editor, and musician and I’ve been creating videos
-    for the past decade and am more excited than ever to be doing so.
+    My name is Andrew and I’m a cinematographer and editor based in Vancouver,
+    BC. I’ve been creating docs, shorts, and commercial work for over a decade
+    now and am enjoying it more than ever.
 
 
-    I consider myself pretty easy going, and I think that making videos should be enjoyable for everyone involved. If that makes sense to you then let’s talk about your ideas!
+    I consider myself pretty easy going, and I think that creating should be enjoyable for everyone involved. If that makes sense to you then let’s talk about your ideas!
   img: /images/uploads/about-me.jpg
   title: About
   overlap: false
 contact:
-  content: >-
-    A global pandemic doesn't mean we can't still create interesting content!
-    Whether through socially distance and safe filming practices, existing
-    footage, motion graphics, animation, etc... where there is a will there's a
-    way. \
-
-    \
-
-    **If budget is an issue during these uncertain times,** please don't hesitate to let me know as I am happy to find a solution that works for both of us.
+  content: "**If you have a project in mind or just want to connect, shoot me a
+    message below and I will get back to you asap!**"
   form:
     email: andrewrobillarddp@gmail.com
     fields:
